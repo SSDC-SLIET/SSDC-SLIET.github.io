@@ -1,876 +1,724 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>SLIET Software Development Club</title><meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <meta charset="utf-8">
-        
-        <!-- adding font awesome -->
-        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700i" rel="stylesheet">
-        
-        <!-- adding icon set-->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        
-        <!-- adding css file-->
-        <link rel="stylesheet" type="text/css" href="css/footer.css">
-        <link rel="stylesheet" type="text/css" href="css/header.css">
-        <link rel="stylesheet" type="text/css" href="css/style.css">
-    </head>
-    <body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"> <!-- Iconscout unicons -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
 
-        <!-- Navigation Bar -->
-        <header>
-          <div class="logo">
-            <a href="index.html"><img src="images/logo/white_logo.png" class="mono" alt=""></a>
-          </div>
-          <div class="close-navbar">
-            <nav>
-              <ul>
-                <li><a href="#" class="active">Home</a></li>
-                <li><a href="#about-us">About</a></li>
-                <li><a href="./Activities/activities.html">Activities</a></li>
-                <li><a href="./Team/team.html">Team</a></li>
-                <li><a href="./ssdc_gallery/gallery.html">Gallery</a></li>
-                <li><a href="#fancy-form">contact us</a></li>
-              </ul>
-            </nav>  
-          </div>
-          <div class="menu-toggle"><i class="fa fa-bars" aria-hidden="true"></i></div>
-          <div class="close-toggle"><i class="fa fa-close" aria-hidden="true"></i></div>
-        </header>
-          
-        <!-- PORTION-1 (SSDC) // PART I -->
-        <section id="top_image">
-            <!-- Table's image -->
-            <img class="main_picture" src="images/land/main-picture.png" id="mp">
-            <!-- Mac-book's image -->
-            <img aling="middle" class="mac" src="images/land/macbook.png" id="mb" >
-            
-            <!-- Club's name and quote -->
-            <div class="name">
-                <h2 id="text">SLIET Software Development Club</h2>
-                <h3 id="tag">hive of Developers...</h3>
+    <script defer src="assets/js/swiper-bundle.min.js"></script>
+    <script defer src="assets/js/main.js"></script>
+    <script defer src="assets/js/mailto.js"></script>
+
+    <title>SSDC - SLIET</title>
+</head>
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav-logo">SSDC</a>
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list grid">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link active-link">
+                            <i class="uil uil-estate nav-icon"></i> Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">
+                            <i class="uil uil-user nav-icon"></i> About
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#skills" class="nav-link">
+                            <i class="uil uil-file-alt nav-icon"></i> Skills
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#activities" class="nav-link">
+                            <i class="uil uil-users-alt nav-icon"></i> Activities
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#member" class="nav-link">
+                            <i class="uil uil-scenery nav-icon"></i> Members
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">
+                            <i class="uil uil-message nav-icon"></i> Contact Us
+                        </a>
+                    </li>
+                </ul>
+                <i class="uil uil-times nav-close" id="nav-close"></i>
+            </div>
+            <div class="nav-btns">
+                <i class="uil uil-moon change-theme" id="theme-button"></i>
+                <div class="nav-toggle" id="nav-toggle">
+                    <i class="uil uil-apps"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="home section" id="home">
+            <div class="home-container container grid">
+                <div class="home-content grid">
+                    <div class="home-social">
+                        <a href="#" target="_blank" class="home-social-icon">
+                            <i class="uil uil-linkedin-alt"></i>
+                        </a>
+                        <a href="#" target="_blank" class="home-social-icon">
+                            <i class="uil uil-github-alt"></i>                          
+                        </a>
+                        <a href="#" target="_blank" class="home-social-icon">
+                            <i class="uil uil-facebook-f"></i>
+                        </a>
+                    </div>
+
+                    <div class="home-img">
+                        <!-- <svg class="home-blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <mask id="mask0" mask-type="alpha">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                            </mask>
+                            <g mask="url(#mask0)">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                <image class="home-blob-img" x=10 y=15 href="assets/img/profile.png"/>
+                            </g>
+                        </svg> -->
+                        <!-- <svg class="home-blob" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M67.3,-38.7C80.4,-16,79.7,14.8,66.1,37.7C52.6,60.6,26.3,75.7,-0.1,75.7C-26.5,75.8,-53,60.9,-65.7,38.4C-78.4,16,-77.3,-14,-64,-36.7C-50.8,-59.4,-25.4,-74.8,0.8,-75.3C27.1,-75.8,54.1,-61.3,67.3,-38.7Z" transform="translate(100 100)" />
+                            <image class="home-blob-img" x=30 y=20 href="assets/img/SSDC_-png.png"/>
+                        </svg> -->
+
+                        <!--<svg class="home-blob" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M40.1,-68.9C53.5,-61.8,67,-54.1,74.6,-42.5C82.3,-30.9,84.2,-15.5,82.5,-1C80.7,13.4,75.2,26.8,68.7,40.4C62.1,54,54.6,67.7,43,75.4C31.4,83,15.7,84.6,1.1,82.7C-13.4,80.7,-26.8,75.2,-38.5,67.5C-50.2,59.9,-60.2,50.2,-68.2,38.6C-76.2,27,-82.1,13.5,-82.4,-0.1C-82.6,-13.8,-77.2,-27.6,-68.8,-38.5C-60.4,-49.5,-49.2,-57.6,-37.2,-65.5C-25.3,-73.4,-12.6,-81.2,0.4,-81.8C13.4,-82.5,26.8,-76,40.1,-68.9Z" transform="translate(100 100)" />
+                            <image class="home-blob-img" x=30 y=20 href="assets/img/SSDC_-png.png"/>
+                        </svg> -->
+
+                        <img src="assets/img/SSDC_-png.png" alt="">
+                    </div>
+
+                    <div class="home-data">
+                        <h1 class="home-title">Hello, We are SSDC</h1>
+                        <h3 class="home-subtitle">Software Developers</h3>
+                        <p class="home-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore saepe ducimus quam maxime, temporibus sapiente laboriosam quidem quod? Dolorum, laboriosam.</p>
+                        <a href="#contact" class="button button--flex">
+                            Contact Us <i class="uil uil-message button-icon"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="home-scroll">
+                    <a href="#about" class="home-scroll-button button--flex">
+                        <i class="uil uil-mouse-alt home-scroll-mouse"></i>
+                        <span class="home-scroll-name">Scroll down</span>
+                        <i class="uil uil-arrow-down home-scroll-arrow"></i>
+                    </a>
+                </div>
             </div>
         </section>
-        
-        <!-- Blue Background // PART II -->
-        <div class="about-section">
-            <div class="background-element">
 
-              <!-- For Background 0s and 1s  -->
-              <div class="b">
-                    <div><img src="images/0.png" alt=""></div>
-                    <div><img src="images/1.png" alt=""></div>
-                    <div><img src="images/0.png" alt=""></div>
-                    <div><img src="images/1.png" alt=""></div>
-                    <div><img src="images/0.png" alt=""></div>
-                    <div><img src="images/1.png" alt=""></div>
-                    <div><img src="images/0.png" alt=""></div>
-                    <div><img src="images/1.png" alt=""></div>
-                    <div><img src="images/0.png" alt=""></div>
-                    <div><img src="images/1.png" alt=""></div>
-                    <div><img src="images/0.png" alt=""></div>
-                    <div><img src="images/1.png" alt=""></div>
-                    <div><img src="images/0.png" alt=""></div>
-                    <div><img src="images/1.png" alt=""></div>
-                    <div><img src="images/0.png" alt=""></div>
-                    <div><img src="images/1.png" alt=""></div>
-                    <div><img src="images/0.png" alt=""></div>
-                    <div><img src="images/0.png" alt=""></div>
-                    <div><img src="images/1.png" alt=""></div>
-                    <div><img src="images/0.png" alt=""></div>
-                    <div><img src="images/1.png" alt=""></div>
-                    <div><img src="images/0.png" alt=""></div>
-                    <div><img src="images/1.png" alt=""></div>
-                    <div><img src="images/0.png" alt=""></div>
-                    <div><img src="images/1.png" alt=""></div>
-                    <div><img src="images/0.png" alt=""></div>
-                    <div><img src="images/1.png" alt=""></div>
-                    <div><img src="images/0.png" alt=""></div>
-                    <div><img src="images/1.png" alt=""></div>
-                    <div><img src="images/0.png" alt=""></div>
-                    <div><img src="images/1.png" alt=""></div>
-                    
-              </div> 
-              <!-- 3 parts - About Us, Transition massege and What we teach -->
-              <div class="main-portion" id="about-us">
-                <!-- About US -->
-                <div class="about-all">
-                  <div class="inner-width">
-                  <h1>About Us</h1>
-                  </div>
-                  <div class="border"></div>
-                  <div class="about">
-                  <p>
-                    <span class="bold">SLIET Software Development Club (SSDC)</span>, 
-                    is a Departmental Club of Computer Science & Engineering, 
-                    SLIET Longowal. This club was founded by CSE - 2017 
-                    undergrads. The team currently comprises of 40+ 
-                    developers. The team aims to brush up the coding skills 
-                    in young enthusiasts, with major  goals to crack the 
-                    latest Coding Contests, Challenges & Interviews without 
-                    any reluctance landing them in some decent technical 
-                    job prospects. In due course of grooming it's pupils, 
-                    the club focuses on project-oriented approach in diverse 
-                    fields <span class="italic">(Web Development, App Development, 
-                    Machine Learning, Cybersecurity, etc)</span> to ensure holistic 
-                    development of it's members. Furthermore, the club 
-                    organises workshops and monthly coding compitions for 
-                    college students as well which in turn helps us discover 
-                    young wizards in IT fields.  
-                  </p>
-                  </div>
-                </div>
-                <!-- Transition massege -->
-                <div class="content">
-                    <div class="content__container">
-                      <p class="content__container__text">
-                        Explore
-                      </p>                              
-                      <ul class="content__container__list">
-                        <li class="content__container__list__item">domains !</li>
-                        <li class="content__container__list__item">expertise !</li>
-                        <li class="content__container__list__item">interest !</li>
-                        <li class="content__container__list__item">SSDC !</li>
-                      </ul>
+        <section class="about section" id="about">
+            <h2 class="section-title">About Us</h2>
+            <span class="section-subtitle">Our introduction</span>
+
+            <div class="about-container container grid">
+                <img src="assets/img/group.jpg" alt="" class="about-img">
+                <div class="about-data">
+                    <p class="about-description">
+                        SLIET Software Development Club (SSDC), is a Departmental Club of Computer Science & Engineering, SLIET Longowal. This club was founded by CSE - 2017 undergrads. The team currently comprises of 40+ developers. The team aims to brush up the coding skills in young enthusiasts, with major  goals to crack the latest Coding Contests, Challenges & Interviews without any reluctance landing them in some decent technical job prospects. In due course of grooming it's pupils, the club focuses on project-oriented approach in diverse (Web Development, App Development, Machine Learning, Cybersecurity, etc) to ensure holistic development of it's members. Furthermore, the club organises workshops and monthly coding compitions for college students as well which in turn helps us discover young wizards in IT fields.  
+                    </p>
+
+                    <div class="about-info">
+                        <div>
+                            <span class="about-info-title">04+</span>
+                            <span class="about-info-name">Years <br> experience</span>
+                        </div>
+                        <div>
+                            <span class="about-info-title">10+</span>
+                            <span class="about-info-name">Projects <br> worked</span>
+                        </div>
+                    </div>
+
+                    <div class="about-buttons">
+                        <a download="" href="" class="button button--flex">
+                            Download CVs <i class="uil uil-download-alt button-icon"></i>
+                        </a>
                     </div>
                 </div>
-                <!-- What we Teaches -->
-                <div class="skills">
-                  <div class="main">
-                      <div class="ia-skills">
-                        <figure>
-                          <img src="images/skills/cc.jpg" alt="image-01">
-                          <img src="images/skills/mobile/cc.jpg" class="mobile">
-                          <input type="radio" name="radio-set" checked="checked">
-                          <figcaption><span class="click">Competitive Programming teaches you to find 
-                            the easiest solution in the quickest possible way. CP enhances your 
-                            problem-solving and debugging skills giving you the real-time fun. It's 
-                            brain-sport. As you start solving harder and harder problem in live-contests 
-                            your analytical and rational thinking intensifies.</span></figcaption>
-                          <figcaption><span class="skill-name">Competitive Coding</span></figcaption>
-                          <figcaption><a href="#">more</a></figcaption>
-                          <figure>
-                            <img src="images/skills/web.jpg" alt="image-02">
-                            <img src="images/skills/mobile/web.jpg" class="mobile">
-                            <input type="radio" name="radio-set" checked="checked">
-                            <figcaption><span class="click">Web development services help your company 
-                              to increase product knowledge, maintain communication between you and 
-                              potential clients, sell your products or services, generate leads for 
-                              the business, and increase the popularity of your company and much 
-                              more.</span></figcaption>
-                            <figcaption><span class="skill-name">Web Development</span></figcaption>
-                            <figcaption><a href="#">more</a></figcaption>
-                            <figure>
-                              <img src="images/skills/app.jpg" alt="image-03">
-                              <img src="images/skills/mobile/app.jpg" class="mobile">
-                              <input type="radio" name="radio-set" checked="checked">
-                              <figcaption><span class="click">For a user, the important of mobile 
-                                application development is of great importance. Portability and ease of 
-                                use make the usability of mobile applications extremely simple for 
-                                audience with gradually less learning curve. Mobile applications send 
-                                information to their customers using notification.</span></figcaption>
-                              <figcaption><span class="skill-name">App Development</span></figcaption>
-                              <figcaption><a href="#">more</a></figcaption>
-                              <figure>
-                                <img src="images/skills/ml.jpg" alt="image-04">
-                                <img src="images/skills/mobile/ml.jpg" class="mobile">
-                                <input type="radio" name="radio-set" checked="checked">
-                                <figcaption><span class="click">Machine learning is important because as 
-                                  models are exposed to new data, they are able to independently adapt. 
-                                  They learn from previous computations to produce reliable, repeatable 
-                                  decisions and results. It's a science that's not new – but one that 
-                                  has gained fresh momentum.</span></figcaption>
-                                <figcaption><span class="skill-name">Machine Learning</span></figcaption>
-                                <figcaption><a href="#">more</a></figcaption>
-                                <figure>
-                                  <img src="images/skills/cyber.jpg" alt="image-05">
-                                  <img src="images/skills/mobile/cyber.jpg" class="mobile">
-                                  <input type="radio" name="radio-set" checked="checked">
-                                  <figcaption><span class="click">Cybersecurity is important because it 
-                                    encompasses everything that pertains to protecting our sensitive data, 
-                                    personally identifiable information (PII), protected health information 
-                                    (PHI), personal information, intellectual property, data, and governmental 
-                                    and industry information systems from theft.</span></figcaption>
-                                  <figcaption><span class="skill-name"> CyberSecurity</span></figcaption>
-                                  <figcaption><a href="#">more</a></figcaption>
-                                  <figure>
-                                    <img src="images/skills/game.jpg" alt="image-06">
-                                    <img src="images/skills/mobile/game.jpg" class="mobile">
-                                    <input type="radio" name="radio-set" checked="checked">
-                                    <figcaption><span class="click">It encourages teamwork and reinforces 
-                                      problem-solving concepts. It helps kids get hands-on with technology. 
-                                      Not only how to use technology, but how to manipulate it and tweak it 
-                                      to your liking. It helps them understand and analyze systems.</span></figcaption>
-                                    <figcaption><span class="skill-name">Game Development</span></figcaption>
-                                    <figcaption><a href="#">more</a></figcaption>
-                                    <figure>
-                                      <img src="images/skills/graphics.jpg" alt="image-07">
-                                      <img src="images/skills/mobile/graphics.jpg" class="mobile">
-                                      <input type="radio" name="radio-set" checked="checked">
-                                      <figcaption><span class="click">Graphic design is a crucial tool that 
-                                        makes sure that you communicate with your people in an efficient manner. 
-                                        It serves to deliver your message to the target audience in an aesthetic 
-                                        way. So, we can say that graphic design is an art that has a certain 
-                                        purpose and objective.</span></figcaption>
-                                      <figcaption><span class="skill-name">Graphics Designing</span></figcaption>
-                                      <figcaption><a href="#">more</a></figcaption>
-                                    </figure>
-                                  </figure>
-                                </figure>
-                              </figure>
-                            </figure>
-                          </figure>
-                        </figure>
-                      </div>
+            </div>
+        </section>
+
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+            <span class="section-subtitle">Our Technical Level</span>
+            <div class="skills-container container grid">
+                <div>
+                    <!-- First Skill -->
+                    <div class="skills-content skills-open">
+                        <div class="skills-header">
+                            <i class="uil uil-brackets-curly skills-icon"></i>
+                            <div>
+                                <h1 class="skills-title">Frontend Development</h1>
+                                <span class="skills-subtitle">More than 3 years</span>
+                            </div>
+
+                            <i class="uil uil-angle-down skills-arrow"></i>
+                        </div>
+
+                        <div class="skills-list grid">
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">HTML</h3>
+                                    <span class="skills-number">90%</span>
+                                </div>
+
+                                <div class="skills-bar">
+                                    <span class="skills-percentage skills-html"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">CSS</h3>
+                                    <span class="skills-number">90%</span>
+                                </div>
+
+                                <div class="skills-bar">
+                                    <span class="skills-percentage skills-css"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">Javascript</h3>
+                                    <span class="skills-number">70%</span>
+                                </div>
+
+                                <div class="skills-bar">
+                                    <span class="skills-percentage skills-js"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">React</h3>
+                                    <span class="skills-number">85%</span>
+                                </div>
+
+                                <div class="skills-bar">
+                                    <span class="skills-percentage skills-react"></span>
+                                </div>
+                            </div>
+
+                        </div>
                     </div>
-                </div> 
-              
-              </div>
-              <!-- Our Activities -->
-              
-              <div class="hero-carousel" id="activities" data-flickity="" data-js="hero-carousel">
+
+                    <!-- Second Skill -->
+                    <div class="skills-content skills-close">
+                        <div class="skills-header">
+                            <i class="uil uil-server-network skills-icon"></i>
+                            <div>
+                                <h1 class="skills-title">Backend Development</h1>
+                                <span class="skills-subtitle">More than 2 years</span>
+                            </div>
+
+                            <i class="uil uil-angle-down skills-arrow"></i>
+                        </div>
+
+                        <div class="skills-list grid">
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">PHP</h3>
+                                    <span class="skills-number">90%</span>
+                                </div>
+
+                                <div class="skills-bar">
+                                    <span class="skills-percentage skills-php"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">Node Js</h3>
+                                    <span class="skills-number">90%</span>
+                                </div>
+
+                                <div class="skills-bar">
+                                    <span class="skills-percentage skills-node"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">SQL</h3>
+                                    <span class="skills-number">70%</span>
+                                </div>
+
+                                <div class="skills-bar">
+                                    <span class="skills-percentage skills-sql"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">MongoDB</h3>
+                                    <span class="skills-number">85%</span>
+                                </div>
+
+                                <div class="skills-bar">
+                                    <span class="skills-percentage skills-mongodb"></span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Third Skill -->
+                    <div class="skills-content skills-close">
+                        <div class="skills-header">
+                            <i class="uil uil-robot skills-icon"></i>
+                            <div>
+                                <h1 class="skills-title">Data Science</h1>
+                                <span class="skills-subtitle">More than 2 years</span>
+                            </div>
+
+                            <i class="uil uil-angle-down skills-arrow"></i>
+                        </div>
+
+                        <div class="skills-list grid">
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">Python</h3>
+                                    <span class="skills-number">90%</span>
+                                </div>
+
+                                <div class="skills-bar">
+                                    <span class="skills-percentage skills-python"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">Django</h3>
+                                    <span class="skills-number">70%</span>
+                                </div>
+
+                                <div class="skills-bar">
+                                    <span class="skills-percentage skills-django"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">TensorFlow</h3>
+                                    <span class="skills-number">85%</span>
+                                </div>
+
+                                <div class="skills-bar">
+                                    <span class="skills-percentage skills-tensor"></span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="services section" id="activities">
+            <h2 class="section-title">Activities</h2>
+            <span class="section-subtitle">What we offer</span>
+            <div class="services-container container grid">
+                <!-- Workshops -->
+                <div class="services-content">
+                    <div>
+                        <i class="uil uil-book-open services-icon"></i>
+                        <h3 class="services-title">Workshops</h3>
+                    </div>
+    
+                    <span class="button button--flex button--small button--link services-button">
+                        View more
+                        <i class="uil uil-arrow-right button-icon"></i>
+                    </span>
+
+                    <div class="services-model">
+                        <div class="services-model-content">
+                            <h4 class="services-model-title">Workshops</h4>
+                            <i class="uil uil-times services-model-close"></i>
+                            <ul class="services-model-services grid">
+                                <li class="services-model-service">
+                                    <i class="uil uil-check-circle services-model-icon"></i>
+                                    <p>C Programming Language Workshop</p>
+                                </li>
+                                <li class="services-model-service">
+                                    <i class="uil uil-check-circle services-model-icon"></i>
+                                    <p>Python Programming Workshop</p>
+                                </li>
+                                <li class="services-model-service">
+                                    <i class="uil uil-check-circle services-model-icon"></i>
+                                    <p>Cyber security Workshop</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contest -->
+                <div class="services-content">
+                    <div>
+                        <i class="uil uil-arrow services-icon"></i>
+                        <h3 class="services-title">Coding <br> Contests</h3>
+                    </div>
+    
+                    <span class="button button--flex button--small button--link services-button">
+                        View more
+                        <i class="uil uil-arrow-right button-icon"></i>
+                    </span>
+
+                    <div class="services-model">
+                        <div class="services-model-content">
+                            <h4 class="services-model-title">Recent <br> Contest <br> Winners</h4>
+                            <i class="uil uil-times services-model-close"></i>
+                            <ul class="services-model-services grid">
+                                <li class="services-model-service">
+                                    <i class="uil uil-award services-model-icon"></i>
+                                    <p>Rahul Kumar</p>
+                                </li>
+                                <li class="services-model-service">
+                                    <i class="uil uil-award services-model-icon"></i>
+                                    <p>Ghanshyam Das</p>
+                                </li>
+                                <li class="services-model-service">
+                                    <i class="uil uil-award services-model-icon"></i>
+                                    <p>XYZ</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
                 
-                <div class="hero-carousel__cell hero-carousel__cell--1">
-                  <div class="post">
-              
-                    <div class="blog">
-                    <div class="blog-post">
-                      <div class="blog-post__img">
-                      <img src="images/slider/hackerrank.png" alt="">
-                      </div>
-                      <div class="blog-post__info">
-                      <div class="blog-post__date">
-                        <span>Sunday,</span>
-                        <span>October 12 2019</span>
-                      </div>
-                      <h1 class="bog-post__title">Hello Guys... I'm here</h1>
-                      
-                      <p class="blog-post__text">bhjb xjkbk rlk43 llk kmk mgkm 
-                        lkmglm lkm rkm mr mt mrt mrmt;lm;rmt ;m;rlmk trnt lkrmt 
-                        rtkm rkm mn nn k uhuyg yg uyg ih ih iuhieh gehiug heiuh 
-                        guehur eurhiughiurehguhreugh ehru hgurehg urehu ghuerhgu 
-                        hiuhr uhgeurh guheurhguhreughuierhug huehru guerhgu huhr
-                        uhiuhiuhui huih uih iuh ihiuxb hbker fm ekbkrf kbueb 
-                        kbkjb jb h jh  hon oih oubk iu bugiy gigi y vk big jiu 
-                        ljhou jh iub jh</p>
-                      <a href="#" class="blog-post__cta">Read more</a>
-                      <div class="prize">
-                        <div class="third">
-                          <img src="images/badge/gold.png" alt="">
-                          <span>Ankit (GCS-1740558)</span>
-                        </div>
-                        <div class="third">
-                          <img src="images/badge/silver.png" alt="">
-                          <span>Ankit (GCS-1740558)</span>
-                        </div>
-                        <div class="third">
-                          <img src="images/badge/bronze.png" alt="">
-                          <span>Ankit (GCS-1740558)</span>
-                        </div>
-                       </div>
-                      </div>
-                    </div>
-                    </div>
-                    <div class="blog">
-                    <div class="blog-post">
-                      <div class="blog-post__img">
-                      <img src="images/slider/hackerrank.png" alt="">
-                      </div>
-                      <div class="blog-post__info">
-                      <div class="blog-post__date">
-                        <span>Sunday,</span>
-                        <span>4 April 2020</span>
-                      </div>
-                      <h1 class="bog-post__title">Mind Stormer - Arp 20</h1>
-                      <p class="blog-post__text">bhjb xjkbk rlk43 llk kmk mgkm 
-                        lkmglm lkm rkm mr mt mrt mrmt;lm;rmt ;m;rlmk trnt lkrmt 
-                        rtkm rkm mn nn k uhuyg yg uyg ih ih iuhieh gehiug heiuh 
-                        guehur eurhiughiurehguhreugh ehru hgurehg urehu ghuerhgu 
-                        hiuhr uhgeurh guheurhguhreughuierhug huehru guerhgu huhr
-                        uhiuhiuhui huih uih iuh ihiuxb hbker fm ekbkrf kbueb 
-                        kbkjb jb h jh  hon oih oubk iu bugiy gigi y vk big jiu 
-                        ljhou jh iub jh</p>
-                      <a href="#" class="blog-post__cta">Read more</a>
-                      <div class="prize">
-                        <div class="third">
-                          <img src="images/badge/gold.png" alt="">
-                          <span>Punit Sharma</span>
-                        </div>
-                        <div class="third">
-                          <img src="images/badge/silver.png" alt="">
-                          <span>Mohd Ammad Rehman</span>
-                        </div>
-                        <div class="third">
-                          <img src="images/badge/bronze.png" alt="">
-                          <span>Adarsh Prashar</span>
-                        </div>
-                       </div>
-                      </div>
-                    </div>
-                    </div>
-              
-                  </div>
-                </div>
-                <div class="hero-carousel__cell hero-carousel__cell--2">
-                  <div class="post">
-              
-                    <div class="blog">
-                    <div class="blog-post">
-                      <div class="blog-post__img">
-                      <img src="images/slider/hackerrank.png" alt="">
-                      </div>
-                      <div class="blog-post__info">
-                      <div class="blog-post__date">
-                        <span>Sunday,</span>
-                        <span>23 February 2020</span>
-                      </div>
-                      <h1 class="bog-post__title">Mind Stormer - Feb 20</h1>
-                      <p class="blog-post__text">bhjb xjkbk rlk43 llk kmk mgkm 
-                        lkmglm lkm rkm mr mt mrt mrmt;lm;rmt ;m;rlmk trnt lkrmt 
-                        rtkm rkm mn nn k uhuyg yg uyg ih ih iuhieh gehiug heiuh 
-                        guehur eurhiughiurehguhreugh ehru hgurehg urehu ghuerhgu 
-                        hiuhr uhgeurh guheurhguhreughuierhug huehru guerhgu huhr
-                        uhiuhiuhui huih uih iuh ihiuxb hbker fm ekbkrf kbueb 
-                        kbkjb jb h jh  hon oih oubk iu bugiy gigi y vk big jiu 
-                        ljhou jh iub jh</p>
-                      <a href="#" class="blog-post__cta">Read more</a>
-                      <div class="prize">
-                        <div class="third">
-                          <img src="images/badge/gold.png" alt="">
-                          <span>Adish Jain</span>
-                        </div>
-                        <div class="third">
-                          <img src="images/badge/silver.png" alt="">
-                          <span>Amit Patil</span>
-                        </div>
-                        <div class="third">
-                          <img src="images/badge/bronze.png" alt="">
-                          <span>Nem Singh</span>
-                        </div>
-                       </div>
-                      </div>
-                    </div>
-                    </div>
-                    <div class="blog">
-                    <div class="blog-post">
-                      <div class="blog-post__img">
-                      <img src="images/1.jpg" alt="">
-                      </div>
-                      <div class="blog-post__info">
-                      <div class="blog-post__date">
-                        <span>Sunday,</span>
-                        <span>October 12 2019</span>
-                      </div>
-                      <h1 class="bog-post__title">Hello Guys... I'm here</h1>
-                      <p class="blog-post__text">bhjb xjkbk rlk43 llk kmk mgkm 
-                        lkmglm lkm rkm mr mt mrt mrmt;lm;rmt ;m;rlmk trnt lkrmt 
-                        rtkm rkm mn nn k uhuyg yg uyg ih ih iuhieh gehiug heiuh 
-                        guehur eurhiughiurehguhreugh ehru hgurehg urehu ghuerhgu 
-                        hiuhr uhgeurh guheurhguhreughuierhug huehru guerhgu huhr
-                        uhiuhiuhui huih uih iuh ihiuxb hbker fm ekbkrf kbueb 
-                        kbkjb jb h jh  hon oih oubk iu bugiy gigi y vk big jiu 
-                        ljhou jh iub jh</p>
-                      <a href="#" class="blog-post__cta">Read more</a>
-                      <div class="prize">
-                        <div class="third">
-                          <img src="images/badge/gold.png" alt="">
-                          <span>Ankit (GCS-1740558)</span>
-                        </div>
-                        <div class="third">
-                          <img src="images/badge/silver.png" alt="">
-                          <span>Ankit (GCS-1740558)</span>
-                        </div>
-                        <div class="third">
-                          <img src="images/badge/bronze.png" alt="">
-                          <span>Ankit (GCS-1740558)</span>
-                        </div>
-                       </div>
-                      </div>
-                    </div>
-                    </div>
-                    
-                  </div>
-                </div>
-                <div class="hero-carousel__cell hero-carousel__cell--3">
-                <div class="post">
-              
-                  <div class="blog">
-                  <div class="blog-post">
-                    <div class="blog-post__img">
-                    <img src="images/2.jpg" alt="">
-                    </div>
-                    <div class="blog-post__info">
-                    <div class="blog-post__date">
-                      <span>Sunday,</span>
-                      <span>October 12 2019</span>
-                    </div>
-                    <h1 class="bog-post__title">Hello Guys... I'm here</h1>
-                    <p class="blog-post__text">bhjb xjkbk rlk43 llk kmk mgkm 
-                      lkmglm lkm rkm mr mt mrt mrmt;lm;rmt ;m;rlmk trnt lkrmt 
-                      rtkm rkm mn nn k uhuyg yg uyg ih ih iuhieh gehiug heiuh 
-                      guehur eurhiughiurehguhreugh ehru hgurehg urehu ghuerhgu 
-                      hiuhr uhgeurh guheurhguhreughuierhug huehru guerhgu huhr
-                      uhiuhiuhui huih uih iuh ihiuxb hbker fm ekbkrf kbueb 
-                      kbkjb jb h jh  hon oih oubk iu bugiy gigi y vk big jiu 
-                      ljhou jh iub jh</p>
-                    <a href="#" class="blog-post__cta">Read more</a>
-                    <div class="prize">
-                      <div class="third">
-                        <img src="images/badge/gold.png" alt="">
-                        <span>Ankit (GCS-1740558)</span>
-                      </div>
-                      <div class="third">
-                        <img src="images/badge/silver.png" alt="">
-              
-                        <span>Ankit (GCS-1740558)</span>
-                      </div>
-                      <div class="third">
-                        <img src="images/badge/bronze.png" alt="">
-              
-                        <span>Ankit (GCS-1740558)</span>
-                      </div>
-                     </div>
-                    </div>
-                  </div>
-                  </div>
-              
-                  <div class="blog">
-                  <div class="blog-post">
-              
-                    <div class="blog-post__img">
-                    <img src="images/slider/hackerrank.png" alt="">
-                    </div>
-              
-                    <div class="blog-post__info">
-                    <div class="blog-post__date">
-                      <span>Sunday,</span>
-                      <span>15 December 2019</span>
-                    </div>
-               
-                    <h1 class="bog-post__title">Mind Stormer - Dec 19</h1>
-              
-                    <p class="blog-post__text">bhjb xjkbk rlk43 llk kmk mgkm 
-                      lkmglm lkm rkm mr mt mrt mrmt;lm;rmt ;m;rlmk trnt lkrmt 
-                      rtkm rkm mn nn k uhuyg yg uyg ih ih iuhieh gehiug heiuh 
-                      guehur eurhiughiurehguhreugh ehru hgurehg urehu ghuerhgu 
-                      hiuhr uhgeurh guheurhguhreughuierhug huehru guerhgu huhr
-                      uhiuhiuhui huih uih iuh ihiuxb hbker fm ekbkrf kbueb 
-                      kbkjb jb h jh  hon oih oubk iu bugiy gigi y vk big jiu 
-                      ljhou jh iub jh</p>
-              
-                      <a href="#" class="blog-post__cta">Read more</a>
-              
-                      <div class="prize">
-                      <div class="third">
-                        <img src="images/badge/gold.png" alt="">
-              
-                        <span>Sahil Sharma</span>
-                      </div>
-                      <div class="third">
-                        <img src="images/badge/silver.png" alt="">
-              
-                        <span>Prateek Rai</span>
-                      </div>
-                      <div class="third">
-                        <img src="images/badge/bronze.png" alt="">
-              
-                        <span>Shrawan Kumar</span>
-                      </div>
-                     </div>
-                    </div>
-                  </div>
-                  </div>
-                  
-                </div>
-                </div>
-              
-                <div class="hero-carousel__cell hero-carousel__cell--4">
-                <div class="post">
-              
-              
-              
-                  <div class="blog">
-                  <div class="blog-post">
-              
-                    <div class="blog-post__img">
-                    <img src="images/slider/hackerrank.png" alt="">
-                    </div>
-              
-                    <div class="blog-post__info">
-              
-                      <div class="blog-post__date">
-                      <span>Sunday,</span>
-                      <span>13 October 2019</span>
-                    </div>
-              
-                    <h1 class="bog-post__title">Code Camp - 3</h1>
-              
-                    <p class="blog-post__text">bhjb xjkbk rlk43 llk kmk mgkm 
-                      lkmglm lkm rkm mr mt mrt mrmt;lm;rmt ;m;rlmk trnt lkrmt 
-                      rtkm rkm mn nn k uhuyg yg uyg ih ih iuhieh gehiug heiuh 
-                      guehur eurhiughiurehguhreugh ehru hgurehg urehu ghuerhgu 
-                      hiuhr uhgeurh guheurhguhreughuierhug huehru guerhgu huhr
-                      uhiuhiuhui huih uih iuh ihiuxb hbker fm ekbkrf kbueb 
-                      kbkjb jb h jh  hon oih oubk iu bugiy gigi y vk big jiu 
-                      ljhou jh iub jh</p>
-              
-                      <a href="#" class="blog-post__cta">Read more</a>
-              
-                      <div class="prize">
-                      <div class="third">
-                        <img src="images/badge/gold.png" alt="">
-              
-                        <span>Rohit Kumar</span>
-                      </div>
-                      <div class="third">
-                        <img src="images/badge/silver.png" alt="">
-              
-                        <span>Deepak Kumar</span>
-                      </div>
-                      <div class="third">
-                        <img src="images/badge/bronze.png" alt="">
-              
-                        <span>Venkatesh Kumar</span>
-                      </div>
-                     </div>
-                    </div>
-                  </div>
-                  </div>
-              
-                  <div class="blog">
-                  <div class="blog-post">
-              
-                    <div class="blog-post__img">
-                    <img src="images/slider/hackerrank.png" alt="">
-                    </div>
-              
-                    <div class="blog-post__info">
-              
-              
-                      <div class="blog-post__date">
-                      <span>Sunday,</span>
-                      <span>14 September 2019</span>
-                    </div>
-              
-                    <h1 class="bog-post__title">Mind Stormer - Sep 19</h1>
-              
-                    <p class="blog-post__text">bhjb xjkbk rlk43 llk kmk mgkm 
-                      lkmglm lkm rkm mr mt mrt mrmt;lm;rmt ;m;rlmk trnt lkrmt 
-                      rtkm rkm mn nn k uhuyg yg uyg ih ih iuhieh gehiug heiuh 
-                      guehur eurhiughiurehguhreugh ehru hgurehg urehu ghuerhgu 
-                      hiuhr uhgeurh guheurhguhreughuierhug huehru guerhgu huhr
-                      uhiuhiuhui huih uih iuh ihiuxb hbker fm ekbkrf kbueb 
-                      kbkjb jb h jh  hon oih oubk iu bugiy gigi y vk big jiu 
-                      ljhou jh iub jh</p>
-              
-                      <a href="#" class="blog-post__cta">Read more</a>
-              
-                      <div class="prize">
-                      <div class="third">
-                        <img src="images/badge/gold.png" alt="">
-              
-                        <span>Venkatesh Kumar</span>
-                      </div>
-                      <div class="third">
-                        <img src="images/badge/silver.png" alt="">
-              
-                        <span>Atal Singh</span>
-                      </div>
-                      <div class="third">
-                        <img src="images/badge/bronze.png" alt="">
-              
-                        <span>Ankit Kumar</span>
-                      </div>
-                     </div>
-                    </div>
-                  </div>
-                  </div>
-                  
-                </div>
-                </div>
-              
-                <div class="hero-carousel__cell hero-carousel__cell--5">
-                <div class="post">
-              
-              
-                  <div class="blog">
-                  <div class="blog-post">
-              
-                    <div class="blog-post__img">
-                    <img src="images/2.jpg" alt="">
-                    </div>
-              
-                    <div class="blog-post__info">
-              
-                      <div class="blog-post__date">
-                      <span>Sunday,</span>
-                      <span>October 12 2019</span>
-                    </div>
-              
-                    <h1 class="bog-post__title">Hello Guys... I'm here</h1>
-              
-                    <p class="blog-post__text">bhjb xjkbk rlk43 llk kmk mgkm 
-                      lkmglm lkm rkm mr mt mrt mrmt;lm;rmt ;m;rlmk trnt lkrmt 
-                      rtkm rkm mn nn k uhuyg yg uyg ih ih iuhieh gehiug heiuh 
-                      guehur eurhiughiurehguhreugh ehru hgurehg urehu ghuerhgu 
-                      hiuhr uhgeurh guheurhguhreughuierhug huehru guerhgu huhr
-                      uhiuhiuhui huih uih iuh ihiuxb hbker fm ekbkrf kbueb 
-                      kbkjb jb h jh  hon oih oubk iu bugiy gigi y vk big jiu 
-                      ljhou jh iub jh</p>
-              
-                      <a href="#" class="blog-post__cta">Read more</a>
-              
-                      <div class="prize">
-                      <div class="third">
-                        <img src="images/badge/gold.png" alt="">
-              
-                        <span>Ankit (GCS-1740558)</span>
-                      </div>
-                      <div class="third">
-                        <img src="images/badge/silver.png" alt="">
-              
-                        <span>Ankit (GCS-1740558)</span>
-                      </div>
-                      <div class="third">
-                        <img src="images/badge/bronze.png" alt="">
-              
-                        <span>Ankit (GCS-1740558)</span>
-                      </div>
-                     </div>
-                    </div>
-                  </div>
-                  </div>
-              
-                  <div class="blog">
-                  <div class="blog-post">
-              
-                    <div class="blog-post__img">
-                    <img src="images/slider/hackerrank.png" alt="">
-                    </div>
-              
-                    <div class="blog-post__info">
-              
-                      <div class="blog-post__date">
-                      <span>Sunday,</span>
-                      <span>28 August 2019</span>
-                    </div>
-              
-                    <h1 class="bog-post__title">Code Cracker - 19</h1>
-              
-                    <p class="blog-post__text">bhjb xjkbk rlk43 llk kmk mgkm 
-                      lkmglm lkm rkm mr mt mrt mrmt;lm;rmt ;m;rlmk trnt lkrmt 
-                      rtkm rkm mn nn k uhuyg yg uyg ih ih iuhieh gehiug heiuh 
-                      guehur eurhiughiurehguhreugh ehru hgurehg urehu ghuerhgu 
-                      hiuhr uhgeurh guheurhguhreughuierhug huehru guerhgu huhr
-                      uhiuhiuhui huih uih iuh ihiuxb hbker fm ekbkrf kbueb 
-                      kbkjb jb h jh  hon oih oubk iu bugiy gigi y vk big jiu 
-                      ljhou jh iub jh</p>
-              
-                      <a href="#" class="blog-post__cta">Read more</a>
-              
-                      <div class="prize">
-                      <div class="third">
-                        <img src="images/badge/gold.png" alt="">
-              
-                        <span>Nem Singh</span>
-                      </div>
-                      <div class="third">
-                        <img src="images/badge/silver.png" alt="">
-              
-                        <span>Ishant Mishra</span>
-                      </div>
-                      <div class="third">
-                        <img src="images/badge/bronze.png" alt="">
-              
-                        <span>Adish Jain</span>
-                      </div>
-                    </div>
-                    </div>
-                  </div>
-                  </div>
-                  
-                </div>
-                </div>                    
-              </div>
-              
-              <div class="faculty">
-                <div class="circle circle1">
-                <img src="images/faculty advisor/Sachan1.png" alt="">
-                </div>
-                <div class="circle circle2">
-                <img src="images/faculty advisor/Rahul1.png" alt="">
-                </div>
-                <div class="para">
-                <h2>Our Faculty Advisor</h2>
-                <div class="border-1"></div>
-                <p>
-                  <span class="q1">"Life is an ever changing process like versions of software. If thou don't keep 
-                    updated, thou may be depleted."</span> <br><br>
-
-                  It's the age of Industry 4.0, where the world is developing on the grounds of 
-                  interconnectivity, automation, machine learning, artificial intelligence, real 
-                  time data, etc. It's the phase that sometimes referred to as IIoT or smart 
-                  manufacturing, marries physical production and operations with smart digital 
-                  technology, machine learning, and big data to create a more holistic and better 
-                  connected ecosystem for companies that focus on manufacturing and supply chain 
-                  management. While every company and organization adopting these new technologies, 
-                  it becomes inevitable for recruiters to seek such tech stacks in our enthusiastic 
-                  engineers. So, we at SSDC, aim to impart the latest trends in information 
-                  technologies to our students and make them future ready. The club disseminates 
-                  various coding practices, algorithms, optimization techniques, fields of study, 
-                  etc. to it's members in order to help them face tough challenges ahead. With a 
-                  noble motive to share programming knowledge among others in the vicinity & build 
-                  a wholesome coding ecosystem. The club organises various competitions at major 
-                  coding platforms and regularly posts challenges in our social media handles. With 
-                  every growing year, the club emphasizes to introduce something new that could 
-                  supplement it's members to increase their outreach. Things like participating in 
-                  renowned hackathons & coding competitions remains a must, which thereby offers 
-                  opportunities to explore their knowledge depths as well. <br>
-
-                  It's rightly said, you no longer become a great opportunist until you explore the 
-                  length and depth of the subject matter, & so is practiced at our club. So instead 
-                  of sitting idle, timelessly contemplating on doubts and being frustrated with the 
-                  errors, come join us and get curated path to success.
-
-                  And most importantly, <br><br>
-                </p>
-                <p class="q2">
-                  "The best way to predict the future is to implement it.” <br> <span class="by">— David Heinemeier Hansson</span> 
-                </p>
-                </div>
-              </div> 
-
             </div>
+        </section>
+
+        <section id="member">
+            <!-- Faculty Members -->
+            <div class="member section">
+                <h2 class="section-title">Faculty Members</h2>
+                <span class="section-subtitle">SLIET Officials</span>
+
+                <div class="member-container container swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="member-content swiper-slide">
+                            <div class="member-data">
+                                <div class="member-header">
+                                    <img src="assets/img/teachers/Sachan.png" alt="" class="member-img">
+                                    <div>
+                                        <h3 class="member-name">Manoj Sachan</h3>
+                                        <span class="member-post">Head of Department</span>
+                                    </div>
+                                </div>
+                                <div>
+                                    <a href=""><i class="uil uil-linkedin-alt member-icon"></i></a>
+                                    <a href=""><i class="uil uil-facebook-f member-icon"></i></a>
+                                    <a href=""><i class="uil uil-instagram member-icon"></i></a>
+                                </div>
+                            </div>
+                            <p class="member-description">Professor Manoj Sachan is the faculty Advisor of Sliet software development club.</p>
+                        </div>
+
+                        <div class="member-content swiper-slide">
+                            <div class="member-data">
+                                <div class="member-header">
+                                    <img src="assets/img/teachers/Rahul.png" alt="" class="member-img">
+                                    <div>
+                                        <h3 class="member-name">Rahul Gautam</h3>
+                                        <span class="member-post">Assistance Professor</span>
+                                    </div>
+                                </div>
+                                <div>
+                                    <a href=""><i class="uil uil-linkedin-alt member-icon"></i></a>
+                                    <a href=""><i class="uil uil-facebook-f member-icon"></i></a>
+                                    <a href=""><i class="uil uil-instagram member-icon"></i></a>
+                                </div>
+                            </div>
+                            <p class="member-decription">Professor Rahul Gautam is the co-faculty advisor of sliet software development club.</p>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination swiper-pagination-member"></div>
+                </div>
+            </div>
+
+            <!-- Mentors -->
+            <div class="member section">
+                <h2 class="section-title">Mentors</h2>
+                <span class="section-subtitle">SLIET Officials</span>
+
+                <div class="member-container container swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="member-content swiper-slide">
+                            <div class="member-data">
+                                <div class="member-header">
+                                    <img src="assets/img/mentors/SHAILENDRA.png" alt="" class="member-img">
+                                    <div>
+                                        <h3 class="member-name">Shailendra Kumar</h3>
+                                        <span class="member-post">Research Scholar</span>
+                                    </div>
+                                </div>
+                                <div>
+                                    <a href=""><i class="uil uil-linkedin-alt member-icon"></i></a>
+                                    <a href=""><i class="uil uil-facebook-f member-icon"></i></a>
+                                    <a href=""><i class="uil uil-instagram member-icon"></i></a>
+                                </div>
+                            </div>
+                            <p class="member-description">Shailendra Kumar is the team mentor of Sliet software development club.</p>
+                        </div>
+
+                        <div class="member-content swiper-slide">
+                            <div class="member-data">
+                                <div class="member-header">
+                                    <img src="assets/img/mentors/Arvind.png" alt="" class="member-img">
+                                    <div>
+                                        <h3 class="member-name">Arvind Kumar</h3>
+                                        <span class="member-post">Research Scholar</span>
+                                    </div>
+                                </div>
+                                <div>
+                                    <a href=""><i class="uil uil-linkedin-alt member-icon"></i></a>
+                                    <a href=""><i class="uil uil-facebook-f member-icon"></i></a>
+                                    <a href=""><i class="uil uil-instagram member-icon"></i></a>
+                                </div>
+                            </div>
+                            <p class="member-decription">Arvind Kumar is the team mentor of sliet software development club.</p>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination swiper-pagination-member"></div>
+                </div>
+            </div>
+
+            <!-- Founders -->
+            <div class="member section">
+                <h2 class="section-title">Founders</h2>
+                <span class="section-subtitle">Big Brains</span>
+
+                <div class="member-container container swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="member-content swiper-slide">
+                            <div class="member-data">
+                                <div class="member-header">
+                                    <img src="assets/img/founders/Satyam.png" alt="" class="member-img">
+                                    <div>
+                                        <h3 class="member-name">Satyam Mittal</h3>
+                                        <span class="member-post">Founder</span>
+                                    </div>
+                                </div>
+                                <div>
+                                    <a href=""><i class="uil uil-linkedin-alt member-icon"></i></a>
+                                    <a href=""><i class="uil uil-facebook-f member-icon"></i></a>
+                                    <a href=""><i class="uil uil-instagram member-icon"></i></a>
+                                </div>
+                            </div>
+                            <p class="member-description">Satyam Mittal is a software Engineer at PAYTM and founder of Sliet software development club.</p>
+                        </div>
+
+                        <div class="member-content swiper-slide">
+                            <div class="member-data">
+                                <div class="member-header">
+                                    <img src="assets/img/founders/Pratyush.png" alt="" class="member-img">
+                                    <div>
+                                        <h3 class="member-name">Pratyush <br> Vikram Singh</h3>
+                                        <span class="member-post">Founder</span>
+                                    </div>
+                                </div>
+                                <div>
+                                    <a href=""><i class="uil uil-linkedin-alt member-icon"></i></a>
+                                    <a href=""><i class="uil uil-facebook-f member-icon"></i></a>
+                                    <a href=""><i class="uil uil-instagram member-icon"></i></a>
+                                </div>
+                            </div>
+                            <p class="member-decription">Pratyush Vikram Singh is a senior Business Development Associate at BYJU'S and founder of sliet software development club.</p>
+                        </div>
+
+                        <div class="member-content swiper-slide">
+                            <div class="member-data">
+                                <div class="member-header">
+                                    <img src="assets/img/founders/Alam.png" alt="" class="member-img">
+                                    <div>
+                                        <h3 class="member-name">Muzzammil <br> Alam</h3>
+                                        <span class="member-post">Founder</span>
+                                    </div>
+                                </div>
+                                <div>
+                                    <a href=""><i class="uil uil-linkedin-alt member-icon"></i></a>
+                                    <a href=""><i class="uil uil-facebook-f member-icon"></i></a>
+                                    <a href=""><i class="uil uil-instagram member-icon"></i></a>
+                                </div>
+                            </div>
+                            <p class="member-decription">Muzzammil Alam is an analyst at AXTRIA and founder of sliet software development club.</p>
+                        </div>
+
+                        <div class="member-content swiper-slide">
+                            <div class="member-data">
+                                <div class="member-header">
+                                    <img src="assets/img/founders/Tanvir.png" alt="" class="member-img">
+                                    <div>
+                                        <h3 class="member-name">Tanvir Singh</h3>
+                                        <span class="member-post">Founder</span>
+                                    </div>
+                                </div>
+                                <div>
+                                    <a href=""><i class="uil uil-linkedin-alt member-icon"></i></a>
+                                    <a href=""><i class="uil uil-facebook-f member-icon"></i></a>
+                                    <a href=""><i class="uil uil-instagram member-icon"></i></a>
+                                </div>
+                            </div>
+                            <p class="member-decription">Tanvir Singh is business consultants at JUNGLEWORKS and founder of sliet software development club.</p>
+                        </div>
+
+                        <div class="member-content swiper-slide">
+                            <div class="member-data">
+                                <div class="member-header">
+                                    <img src="assets/img/founders/Aditya.png" alt="" class="member-img">
+                                    <div>
+                                        <h3 class="member-name">Aditya Prakash</h3>
+                                        <span class="member-post">Co-Founder</span>
+                                    </div>
+                                </div>
+                                <div>
+                                    <a href=""><i class="uil uil-linkedin-alt member-icon"></i></a>
+                                    <a href=""><i class="uil uil-facebook-f member-icon"></i></a>
+                                    <a href=""><i class="uil uil-instagram member-icon"></i></a>
+                                </div>
+                            </div>
+                            <p class="member-decription">Aditya Prakash is a Backend Developer at 8am.io and co-founder of sliet software development club.</p>
+                        </div>
+
+                        <div class="member-content swiper-slide">
+                            <div class="member-data">
+                                <div class="member-header">
+                                    <img src="assets/img/founders/Akshay.png" alt="" class="member-img">
+                                    <div>
+                                        <h3 class="member-name">Akshay Tyagi</h3>
+                                        <span class="member-post">Co-Founder</span>
+                                    </div>
+                                </div>
+                                <div>
+                                    <a href=""><i class="uil uil-linkedin-alt member-icon"></i></a>
+                                    <a href=""><i class="uil uil-facebook-f member-icon"></i></a>
+                                    <a href=""><i class="uil uil-instagram member-icon"></i></a>
+                                </div>
+                            </div>
+                            <p class="member-decription">Akshay Tyagi teaches physical chemistry at ALLEN Career Institute and co-founder of sliet software development club.</p>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination swiper-pagination-member"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contact Us</h2>
+            <span class="section-subtitle">Get In Touch</span>
+
+            <div class="contact-container container grid">
+                <div>
+                    <div class="contact-information">
+                        <i class="uil uil-phone contact-icon"></i>
+                        <div>
+                            <h3 class="contact-title">Call Us</h3>
+                            <span class="contact-subtitle">+91-8697109010, +91-12334567891</span>
+                        </div>
+                    </div>
+
+                    <div class="contact-information">
+                        <i class="uil uil-envelope contact-icon"></i>
+                        <div>
+                            <h3 class="contact-title">Email</h3>
+                            <span class="contact-subtitle">sliet.ssdc@gmail.com</span>
+                        </div>
+                    </div>
+
+                    <div class="contact-information">
+                        <i class="uil uil-map-marker contact-icon"></i>
+                        <div>
+                            <h3 class="contact-title">Location</h3>
+                            <span class="contact-subtitle">CSE Department, SLIET Longowal, Sangrur</span>
+                        </div>
+                    </div>
+                </div>
+
+                <form action="" class="contact-form grid">
+                    <div class="contact-inputs grid">
+                        <div class="contact-content">
+                            <label for="" class="contact-label">Name</label>
+                            <input type="text" class="contact-input" id="name">
+                        </div>
+                        <div class="contact-content">
+                            <label for="" class="contact-label">Email</label>
+                            <input type="email" class="contact-input" id="email">
+                        </div>
+                        <div class="contact-content">
+                            <label for="" class="contact-label">Phone</label>
+                            <input type="text" class="contact-input" id="phone">
+                        </div>
+                        <div class="contact-content">
+                            <label for="" class="contact-label">Message</label>
+                            <textarea name="" cols="0" rows="7" class="contact-input" id="message"></textarea>
+                        </div>
+
+                        <div>
+                            <button class="button button--flex" id="send-btn">
+                                Send Message
+                                <i class="uil uil-message button-icon"></i>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-bg">
+            <div class="footer-container container grid">
+                <div>
+                    <h1 class="footer-title">SSDC</h1>
+                    <span class="footer-subtitle">Hive of Developers</span>
+                </div>
+
+                <ul class="footer-links">
+                    <li>
+                        <a href="#activities" class="footer-link">Activities</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="footer-link">Contact Us</a>
+                    </li>
+                </ul>
+
+                <div class="footer-socials">
+                    <a href="" class="footer-social" target="_blank">
+                        <i class="uil uil-facebook-f"></i>
+                    </a>
+                    <a href="" class="footer-social" target="_blank">
+                        <i class="uil uil-instagram"></i>
+                    </a>
+                </div>
+            </div>
+            <p class="footer-copy">&#169; SSDC. All right reserved.</p>
         </div>
+    </footer>
 
-        <!-- Contact Us Form // PART III -->
-        <div id="fancy-form">
-            <div class="container">
-              <div class="form-sections">
-
-                <!-- Form left -->
-                <div class="Form-left">
-                 <h1>Get In Touch</h1>
-                 <div class="line"></div> 
-                 <!--border-bottom line-->
-                 <p>Contact us for any queries and updates regarding our club activities.</p><br>
-         
-                 <!--first Heading -->
-                 <h4>ADDRESS</h4>
-                  <span>CSE Department, SLIET Longowal, Sangrur</span>
-                  <hr><br><br>
-         
-                 <!--second Heading -->
-                 <h4>PHONE</h4>
-                  <span>+91-8697109010, +91-12334567891</span>
-                  <hr><br><br>
-         
-                 <!--third Heading -->
-                 <h4>EMAIL</h4>
-                  <span>sliet.ssdc@gmail.com</span>
-                  <hr> <br>
-
-                </div>
-                <!-- Form right -->
-                <div class="Form-right">
-                 <h1>Contact Us</h1>
-                 <div class="line"></div>
-                 <!-- form -->
-                 <form action="">
-                   <h5>NAME</h5>
-                   <input type="text"><br><br>
-                   <h5>EMAIL</h5>
-                   <input type="email"><br><br>
-                   <h5>PHONE</h5>
-                   <input type="number"><br><br>
-                   <h5>YOUR MESSAGE</h5>
-                   <textarea name="" id="" cols="50" rows="7"></textarea><br>
-                   <button>SUBMIT</button>
-                 </form>
-                </div>
-
-              </div>
-            </div>
-        </div>        
-
-        <!-- Footer // PART IV -->
-        <div class="footer">
-          <!-- Main Footer -->
-          <div class="footer-main-div">
-            <!-- For Social Icons -->
-            <div class="footer-social-icons">
-                <ul>
-                    <li><a href="https://www.facebook.com/ssdcsliet" class="fb" target="blank"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="https://www.instagram.com/ssdc_hive.of.developers/" class="i" target="blank"><i class="fa fa-instagram"></i></a></li>
-                    <li><a href="#" class="g" target="blank"><i class="fa fa-github"></i></a></li>
-                    <li><a href="#" class="t" target="blank"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="https://www.linkedin.com/company/sliet-software-developement-club/" class="li" target="blank"><i class="fa fa-linkedin"></i></a></li>
-                </ul>
-            </div>
-            <!-- For first row -->
-            <div class="footer-menu-one">
-                <ul>
-                    <li><a href="./index.html#about-us">About Team</a></li>
-                    <li><a href="./Team/team.html#founder">Founders & Co-Founders</a></li>
-                    <li><a href="./Team/team.html#faculty-advisor">Faculty Advisors & mentors</a></li>
-                    <li><a href="ssdc_gallery/gallery.html">Gallery</a></li>
-                </ul>
-            </div>
-            <!-- For second row -->
-            <div class="footer-menu-two">
-                <ul>
-                    <li><a href="Activities/activities.html#Contests">Contests</a></li>
-                    <li><a href="Activities/activities.html#Workshops">Workshops</a></li>
-                    <li><a href="Activities/activities.html#projects">Projects</a></li>
-                    <li><a href="https://ssdcsliet.blogspot.com" target="blank">Blogs</a></li>
-                </ul>
-            </div>
-          </div>
-          <!-- Footer bottom -->
-          <div class="footer-bottom">
-            <p>Copyright © 2020 || All Rights Reserved by SLIET Software Development Club.</p>
-          </div>
-        </div>
-        
-
-        <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
-        <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-        <script type="text/javascript" src="js/jquery.hislide.js" ></script>
-		    <script src="js/flickity-docs.min.js?2"></script>
-		    <script>
-			$('.slide').hiSlide();
-        </script>
-        <script type="text/javascript">
-            let mb = document.getElementById("mb")
-            let text = document.getElementById("text")
-
-            window.addEventListener('scroll', function(){
-                var value = window.scrollY;
-
-                mb.style.top = value * -0.4 + 'px';
-                text.style.top = value * 0.05 + 'px';
-                tag.style.top = value * 0.3 + 'px';
-            })
-        </script>
-        
-        <script type="text/javascript">
-          $(document).ready(function(){
-            $('.menu-toggle').click(function(){
-              $('nav').addClass('active'),
-              $('header').addClass('active')
-            }),
-            $('.close-toggle').click(function(){
-              $('nav').removeClass('active'),
-              $('header').removeClass('active')
-            }),
-            $('.close-navbar').click(function(){
-              $('nav').removeClass('active'),
-              $('header').removeClass('active')
-            })
-          })
-        </script>
-    </body>
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scrollup-icon"></i>
+    </a>
+</body>
 </html>
