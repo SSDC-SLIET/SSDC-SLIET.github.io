@@ -367,6 +367,11 @@ img {
     color: var(--first-color-alt);
 }
 
+#send-btn {
+    border: none;
+    cursor: pointer;
+}
+
 /* About section */
 
 .about-img {
