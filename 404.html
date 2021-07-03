@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"> <!-- Iconscout unicons -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/motion.css">
+
+    <link rel="icon"  type="image/png" href="assets/img/SSDC-WHITE.png">
+    
+    
+
+    <script defer src="assets/js/swiper-bundle.min.js"></script>
+    <script defer src="assets/js/main.js"></script>
+    <script defer src="assets/js/mailto.js"></script>
+
+    <title>SLIET SOFTWARE DEVELOPMENT CLUB - HIVE OF DEVELOPERS</title>
+
+</head>
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="https://ssdc-sliet.github.io/" class="nav-logo"><img src="assets/img/SSDC.png" alt=""></a>
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list grid">
+                    <li class="nav-item">
+                        <a href="https://ssdc-sliet.github.io/" class="nav-link active-link">
+                            <i class="uil uil-estate nav-icon"></i> Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://ssdc-sliet.github.io/#about" class="nav-link">
+                            <i class="uil uil-user nav-icon"></i> About
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://ssdc-sliet.github.io/#skills" class="nav-link">
+                            <i class="uil uil-file-alt nav-icon"></i> We Work On
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://ssdc-sliet.github.io/#activities" class="nav-link">
+                            <i class="uil uil-users-alt nav-icon"></i> Activities
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://ssdc-sliet.github.io/#member" class="nav-link">
+                            <i class="uil uil-scenery nav-icon"></i> Members
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://ssdc-sliet.github.io/#contact" class="nav-link">
+                            <i class="uil uil-message nav-icon"></i> Contact Us
+                        </a>
+                    </li>
+                </ul>
+                <i class="uil uil-times nav-close" id="nav-close"></i>
+            </div>
+            <div class="nav-btns">
+                <i class="uil uil-moon change-theme" id="theme-button"></i>
+                <div class="nav-toggle" id="nav-toggle">
+                    <i class="uil uil-apps"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <div class="motion_animation">
+            <canvas id="canvas"yys></canvas>
+            <div id="buffer" style="display:none;"></div>
+        </div>
+
+
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Not Able To Find Something?</h2>
+            <span class="section-subtitle">Get In Touch</span>
+
+            <div class="contact-container container grid">
+                <div>
+                    <div class="contact-information">
+                        <i class="uil uil-phone contact-icon"></i>
+                        <div>
+                            <h3 class="contact-title">Call Us</h3>
+                            <span class="contact-subtitle">+91-8697109010, +91-12334567891</span>
+                        </div>
+                    </div>
+
+                    <div class="contact-information">
+                        <i class="uil uil-envelope contact-icon"></i>
+                        <div>
+                            <h3 class="contact-title">Email</h3>
+                            <span class="contact-subtitle">sliet.ssdc@gmail.com</span>
+                        </div>
+                    </div>
+
+                    <div class="contact-information">
+                        <i class="uil uil-map-marker contact-icon"></i>
+                        <div>
+                            <h3 class="contact-title">Location</h3>
+                            <span class="contact-subtitle">CSE Department, SLIET Longowal, Sangrur</span>
+                        </div>
+                    </div>
+                </div>
+
+                <form action="" class="contact-form grid">
+                    <div class="contact-inputs grid">
+                        <div class="contact-content">
+                            <label for="" class="contact-label">Name</label>
+                            <input type="text" class="contact-input" id="name" required>
+                        </div>
+                        <div class="contact-content">
+                            <label for="" class="contact-label">Email</label>
+                            <input type="email" class="contact-input" id="email" required>
+                        </div>
+                        <div class="contact-content">
+                            <label for="" class="contact-label">Phone</label>
+                            <input type="text" class="contact-input" id="phone" required>
+                        </div>
+                        <div class="contact-content">
+                            <label for="" class="contact-label">Message</label>
+                            <textarea name="" cols="0" rows="7" class="contact-input" id="message" required></textarea>
+                        </div>
+
+                        <div>
+                            <button type="submit"class="button button--flex" id="send-btn">
+                                Send Message
+                                <i class="uil uil-message button-icon"></i>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-bg">
+            <div class="footer-container container grid">
+                <div>
+                    <h1 class="footer-title">SSDC</h1>
+                    <span class="footer-subtitle">Hive of Developers</span>
+                </div>
+
+                <ul class="footer-links">
+                    <li>
+                        <a href="#activities" class="footer-link">Activities</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="footer-link">Contact Us</a>
+                    </li>
+                </ul>
+
+                <div class="footer-socials">
+                    <a href="" class="footer-social" target="_blank">
+                        <i class="uil uil-facebook-f"></i>
+                    </a>
+                    <a href="" class="footer-social" target="_blank">
+                        <i class="uil uil-instagram"></i>
+                    </a>
+                </div>
+            </div>
+            <p class="footer-copy">&#169; SSDC. All right reserved.</p>
+        </div>
+    </footer>
+
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scrollup-icon"></i>
+    </a>
+    <script src="assets/js/motion.js"></script>
+</body>
+</html>
