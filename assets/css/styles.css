@@ -1068,3 +1068,8 @@ img {
         width: 460px;
     }
 }
+
+/*Some extra CSS For Logo Positioning*/
+a.nav-logo img{
+    height:60px;
+}
