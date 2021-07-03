@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
 :root {
-    --header-height: 3rem;
+    --header-height: 5rem;
 
-    --hue-color: 185;
+    --hue-color: 206;
     --first-color: hsl(var(--hue-color) , 69% , 61%);
     --first-color-second: hsl(var(--hue-color) , 69% , 61%);
     --first-color-alt: hsl(var(--hue-color) , 57% , 53%);
@@ -158,6 +158,14 @@ img {
     left: 0;
     z-index: var(--z-fixed);
     background-color: var(--body-color);
+}
+
+.main-logo {
+    height: calc(var(--header-height) + 10px);
+    border-radius: 50%;
+    padding: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0 , 0 , 0 , 0.15);
 }
 
 .nav {
@@ -560,14 +568,26 @@ img {
 .services-content {
     position: relative;
     background-color: var(--container-color);
-    padding: 3.5rem 0.5rem 1.25rem 1.5rem;
-    border-radius: 0.25rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+    text-align: center;
     box-shadow: 0 2px 4px rgba(0,0,0,0.15);
     transition: 300ms;
+    cursor: pointer;
 }
 
 .services-content:hover {
-    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+}
+
+.ser-img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 1rem;
 }
 
 .services-icon {
@@ -694,6 +714,17 @@ img {
     bottom: 0;
 }
 
+/* Gallery */
+
+.gallery-content {
+    text-align: center;
+}
+
+.gallery-img {
+    border-radius: 0.5rem;
+    width: 400px;
+}
+
 /* Contact information */
 
 .contact-container {
@@ -789,7 +820,7 @@ img {
 .footer-copy {
     font-size: var(--smaller-font-size);
     text-align: center;
-    color: var(--text-color-light);
+    color: #fff;
     margin-top: var(--mb-3);
 }
 
@@ -894,7 +925,7 @@ img {
 
 @media screen and (min-width: 568px) {
     .home-content {
-        grid-template-columns: max-content 1fr 1fr;
+        grid-template-columns: max-content 1fr;
     }
 
     .home-data {
@@ -991,15 +1022,15 @@ img {
     }
 
     .about-description {
-        text-align: initial;
+        text-align: center;
     }
 
     .about-info {
-        justify-content: space-between;
+        justify-content: space-around;
     }
 
     .about-buttons {
-        justify-content: initial;
+        justify-content: center;
     }
     .services-container {
         grid-template-columns: repeat(3 , 218px);
@@ -1011,14 +1042,18 @@ img {
     }
 
     .services-content {
-        padding: 6rem 0 2rem 2.5rem;
+        padding: 1rem;
     }
 
     .services-model-content {
         width: 450px;
     }
 
-    .about-container, .contact-container {
+    .about-container{
+        grid-template-columns: 1fr;
+    } 
+    
+    .contact-container {
         grid-template-columns: repeat(2 , 1fr);
     }
 
@@ -1067,9 +1102,4 @@ img {
     .contact-form {
         width: 460px;
     }
-}
-
-/*Some extra CSS For Logo Positioning*/
-a.nav-logo img{
-    height:60px;
 }

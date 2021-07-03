@@ -541,9 +541,7 @@ vertex3d.prototype = {
 			} else {
 				vibrateFlag = false;
 			};
-			dark=document.body.classList.contains('dark-theme');
-			//invertCV.execution() > 0.7
-			if(!dark) {
+			if(invertCV.execution() > 0.7) {
 				strokeColor = "rgba(0,0,0,0.1)";
 				backgroundColor = "rgba(255,255,255,1)";
 			} else {
