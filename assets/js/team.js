@@ -1,8 +1,8 @@
 let data = [
-    /*{
-      name: "Anil kumar",
-      photo: "assets/Students/Anil kumar.jpg",
-      batch: 2020,
+    {
+      Name: "Anil kumar",
+      Photo: "assets/Students/Anil kumar.jpg",
+      Batch: 2020,
       Joining_Year: 2017,
       Programme: "B.E",
       Registration_Number: "GCS/1640151",
@@ -16,7 +16,7 @@ let data = [
       Codechef: "anil42988",
       Codeforces: "anil42988",
       Linkedin: "anil-kumar-37a713137"
-    },*/
+    },
     {
       Name: "Devendra Kumar",
       Photo: "assets/img/Students/Devendra Kumar.jpg",
@@ -34,7 +34,7 @@ let data = [
       Codechef: "Pdevendra",
       Codeforces: "Pdevendra",
       Linkedin: "https://www.linkedin.com/in/devendra-kumar-099744128"
-    },/*
+    },
     {
       "Name": "RAUBINSH ARYA",
       "Photo": "assets/Students/RAUBINSH ARYA.jpg",
@@ -52,7 +52,7 @@ let data = [
       "Codechef": "raubinsharya",
       "Codeforces": "NA",
       "Linkedin": "raubinsh-arya-7b2189140"
-    },*/
+    },
     {
       Name: "Satyam Kumar Gupta",
       Photo: "assets/img/Students/Satyam Kumar.jpeg",
@@ -88,7 +88,7 @@ let data = [
       Codechef: "Shyam_3232",
       Codeforces: "ShyamKenashia",
       Linkedin: "www.linkedin.com/in/shyam-kumar-910800169"
-    },/*
+    },
     {
       "Name": "Abhishek kumar",
       "Photo": "assets/Students/Abhishek kumar.jpg",
@@ -160,7 +160,7 @@ let data = [
       "Codechef": "https://www.codechef.com/users/vaibhav7277",
       "Codeforces": "https://codeforces.com/profile/vaibhav7277",
       "Linkedin": "https://www.linkedin.com/in/vaibhav-raj-9a7897192/"
-    },*/
+    },
     {
       Name: "Amritanjali",
       Photo: "assets/img/Students/Amritanjali.jpg",
@@ -178,7 +178,7 @@ let data = [
       Codechef: "amrit5",
       Codeforces: "amrit5",
       Linkedin: "Amritanjali"
-    },/*
+    },
     {
       "Name": "Aryan Yadav",
       "Photo": "assets/Students/Aryan Yadav.jpg",
@@ -214,7 +214,7 @@ let data = [
       "Codechef": "https://www.codechef.com/users/dipayandas2580",
       "Codeforces": "https://codeforces.com/profile/dipayandas2580",
       "Linkedin": "https://www.linkedin.com/in/dipayan-das-b05878165/"
-    },*/
+    },
     {
       Name: "Prerna Kumari",
       Photo: "assets/img/Students/Prerna Kumari.jpg",
@@ -232,7 +232,7 @@ let data = [
       Codechef: "https://www.codechef.com/users/prerna86",
       Codeforces: "http://codeforces.com/profile/prernakumari941",
       Linkedin: "https://www.linkedin.com/in/prerna-singh-513a48192/"
-    },/*
+    },
     {
       "Name": "Priya",
       "Photo": "assets/Students/Priya.jpg",
@@ -250,7 +250,7 @@ let data = [
       "Codechef": "https://www.codechef.com/users/priyasuman12",
       "Codeforces": "https://codeforces.com/profile/priyasuman",
       "Linkedin": "linkedin.com/in/priya-suman-b389a0192"
-    },*/
+    },
     {
       Name: "Rajan Saini",
       Photo: "assets/img/Students/Rajan Saini.jpg",
@@ -304,7 +304,7 @@ let data = [
       Codechef: "https://www.codechef.com/users/prateekrai",
       Codeforces: "http://codeforces.com/profile/prateekrai123",
       Linkedin: "https://www.linkedin.com/in/prateek-rai-150993192/"
-    },/*
+    },
     {
       "Name": "AJAY KUMAR",
       "Photo": "assets/Students/AJAY KUMAR.jpg",
@@ -340,7 +340,7 @@ let data = [
       "Codechef": "https://www.codechef.com/users/astha_66",
       "Codeforces": "http://codeforces.com/profile/astha_66",
       "Linkedin": "https://www.linkedin.com/in/astha-singh-9199b3191/"
-    },*/
+    },
     {
       Name: "Chandan Kumar",
       Photo: "assets/img/Students/Chandan Kumar.jpg",
@@ -358,7 +358,7 @@ let data = [
       Codechef: "https://www.codechef.com/users/chan17_cd",
       Codeforces: "http://codeforces.com/profile/coder2106",
       Linkedin: "https://www.linkedin.com/in/chandan-kumar-21b142173/"
-    },/*
+    },
     {
       "Name": "S.Prasanna Kumar ",
       "Photo": "assets/Students/S.Prasanna Kumar .jpg",
@@ -394,7 +394,7 @@ let data = [
       "Codechef": "https://www.codechef.com/users/venky9211",
       "Codeforces": "http://codeforces.com/profile/Venky9211",
       "Linkedin": "https://www.linkedin.com/in/venkatesh-kumar-835a01184/"
-    },*/
+    },
     {
       Name: "Shivam Raj",
       Photo: "assets/img/Students/Shivam Raj.jpg",
@@ -412,12 +412,14 @@ let data = [
       Codechef: "https://www.codechef.com/users/shivam1raj5",
       Codeforces: "http://codeforces.com/profile/shivam1raj5",
       Linkedin: "https://www.linkedin.com/in/shivam-raj-982345197"
-    },/*
+    },
     {
-      "Name": "Ankit Kumar",
-      "Photo": "assets/Students/Ankit Kumar.jpg",
+      "Name": "Ankit Mishra",
+      "Photo": "assets/img/Students/Ankit Mishra.jpg",
       "Batch": 2022,
       "Joining Year": 2018,
+      "Position":"Coordinator",
+      "PositionOrder":0,
       "Programme": "B.E",
       "Registration Number": "GCS/1840028",
       "Email": "ankitstudy88@gmail.com",
@@ -431,6 +433,7 @@ let data = [
       "Codeforces": "http://codeforces.com/profile/ankitstudy88",
       "Linkedin": "https://www.linkedin.com/in/ankitmishra88"
     },
+    
     {
       "Name": "Naman Singh",
       "Photo": "assets/Students/Naman Singh.jpg",
@@ -466,7 +469,7 @@ let data = [
       "Codechef": "https://www.codechef.com/users/rohitmantu",
       "Codeforces": "https://codeforces.com/profile/rohitmantu",
       "Linkedin": "https://www.linkedin.com/in/rohit-kumar-507992192/"
-    },*/
+    },
     {
       Name: "Shrawan Kumar",
       Photo: "assets/img/Students/Shrawan Kumar.jpg",
@@ -543,6 +546,8 @@ let data = [
       Name: "Amit Kumar",
       Photo: "assets/img/Students/Amit Kumar.jpg",
       Batch: 2022,
+      Position:"Campaign Head",
+      "PositionOrder":4,
       Joining_Year: 2019,
       Programme: "B.E",
       Registration_Number: "GCS/1840038",
@@ -563,6 +568,8 @@ let data = [
       Batch: 2022,
       Joining_Year: 2019,
       Programme: "B.E",
+      Position:"Programming Head",
+      "PositionOrder":2,
       Registration_Number: "GCS/1930022",
       Email: "singh99amitoj@gmail.com",
       Contact: 9417171800,
@@ -618,6 +625,8 @@ let data = [
       Joining_Year: 2019,
       Programme: "B.E",
       Registration_Number: "GCS/1840060",
+      Position:"Programming Head",
+      "PositionOrder":3,
       Email: "atalsingh05@gmail.com",
       Contact: 7905704859,
       Gender: "Male",
@@ -646,7 +655,7 @@ let data = [
       Codechef: "https://codechef. com/user/sonib",
       Codeforces: "https://codeforces. com/profile/bhavesh65321",
       Linkedin: "https://linkedin.com/in/bhavesh-soni-3769a3192/"
-    },/*
+    },
     {
       "Name": "Dixit Agarwal",
       "Photo": "assets/Students/Dixit Agarwal.jpg",
@@ -700,7 +709,7 @@ let data = [
       "Codechef": "https://www.codechef.com/users/kksonu",
       "Codeforces": "http://codeforces.com/profile/kksonu",
       "Linkedin": "https://www.linkedin.com/in/keshav-sonu-77a9a7192/"
-    },*/
+    },
     {
       Name: "Manjeeta Maurya",
       Photo: "assets/img/Students/Manjeeta Maurya.jpg",
@@ -718,7 +727,7 @@ let data = [
       Codechef: "https://www.codechef.com/users/manjeeta_123",
       Codeforces: "https://codeforces.com/Manjeeta_100",
       Linkedin: "https://www.linkedin.com/in/manjeeta-maurya-1879a2192"
-    },/*
+    },
     {
       "Name": "MOHAMMAD TANVEER",
       "Photo": "assets/Students/MOHAMMAD TANVEER.jpg",
@@ -736,7 +745,7 @@ let data = [
       "Codechef": "https://www.codechef.com/users/tanveer7540",
       "Codeforces": "https://codeforces.com/profile/tanveer7540",
       "Linkedin": "https://www.linkedin.com/mynetwork/"
-    },*/
+    },
     {
       Name: "Mukesh Kumar",
       Photo: "assets/img/Students/Mukesh Kumar.jpg",
@@ -754,7 +763,7 @@ let data = [
       Codechef: "https://www.codechef.com/users/krmukesh02016",
       Codeforces: "http://codeforces.com/profile/krmukesh02016",
       Linkedin: "https://www.linkedin.com/in/mukesh-kumar-973995192/"
-    },/*
+    },
     {
       "Name": "Priya Kumari ",
       "Photo": "assets/Students/Priya Kumari .jpg",
@@ -772,7 +781,7 @@ let data = [
       "Codechef": "https://www.codechef.com/users/priyakri_01",
       "Codeforces": "http://codeforces.com/profile/priyamuz",
       "Linkedin": "https://www.linkedin.com/in/priya-kumari-33382b172"
-    },*/
+    },
     {
       Name: "Rahul Kumar Mishra",
       Photo: "assets/img/Students/Rahul Kumar Mishra.jpg",
@@ -790,7 +799,7 @@ let data = [
       Codechef: "https://www.codechef.com/users/kumarrahul1720",
       Codeforces: "https://codeforces.com/profile/kumarrahul1720",
       Linkedin: "https://www.linkedin.com/in/rahul-mishra-b28a79192/"
-    },/*
+    },
     {
       "Name": "Ravi Kant",
       "Photo": "assets/Students/Ravi Kant.jpg",
@@ -826,13 +835,15 @@ let data = [
       "Codechef": "https://www.codechef.com/users/ridhamgoyal07",
       "Codeforces": "https://codeforces.com/profile/ridhamgoyal007",
       "Linkedin": "https://www.linkedin.com/in/ridham-goyal-05275b168/"
-    },*/
+    },
     {
       Name: "Ruchika",
       Photo: "assets/img/Students/Ruchika.jpg",
       Batch: 2022,
       Joining_Year: 2019,
       Programme: "B.E",
+      Position:"Co-coordinator",
+      "PositionOrder":1,
       Registration_Number: "GCS/1932041",
       Email: "ruchika04031998@gmail.com",
       Contact: 8527753759,
@@ -844,7 +855,7 @@ let data = [
       Codechef: "https://www.codechef.com/users/ruchika216",
       Codeforces: "http://codeforces.com/profile/ruchika04",
       Linkedin: "https://www.linkedin.com/in/ruchika-rj-612a48192"
-    },/*
+    },
     {
       "Name": "SANJEEV KUMAR",
       "Photo": "assets/Students/SANJEEV KUMAR.jpg",
@@ -862,7 +873,7 @@ let data = [
       "Codechef": "https://www.codechef.com/users/sanjeev_321",
       "Codeforces": "http://codeforces.com/register/afterRegistration?handle=sanjeev_-321",
       "Linkedin": "https://www.linkedin.com/in/sanjeev-gupta-b51a40192/"
-    },*/
+    },
     {
       Name: "Shailesh kumar",
       Photo: "assets/img/Students/Shailesh Kumar.jpg",
@@ -885,6 +896,8 @@ let data = [
       Name: "Shrejal Singh",
       Photo: "assets/img/Students/Shrejal Singh.jpg",
       Batch: 2022,
+      Position:"Campaign Head",
+      PositionOrder:5,
       Joining_Year: 2019,
       Programme: "B.E",
       Registration_Number: "GCS/1930077",
@@ -916,7 +929,7 @@ let data = [
       Codechef: "https://www.codechef.com/users/siddharthk15",
       Codeforces: "http://codeforces.com/profile/siddharthkumar15",
       Linkedin: "www.linkedin.com/in/siddharth-kumar-85438a168"
-    },/*
+    },
     {
       "Name": "Abhishek kumar",
       "Photo": "assets/Students/Abhishek kumar.jpg",
@@ -934,7 +947,7 @@ let data = [
       "Codechef": "https://www.codechef.com/users/abhishekkumar8",
       "Codeforces": "http://codeforces.com/profile/abhishekkumar842",
       "Linkedin": "https://www.linkedin.com/in/abhishek-kumar-9a39a1192/"
-    },*/
+    },
     {
       Name: "Apoorv Mehra",
       Photo: "assets/img/Students/Apoorv Mehra.jpeg",
@@ -988,7 +1001,7 @@ let data = [
       Codechef: "https://www.codechef.com/users/kamal610",
       Codeforces: "http://codeforces.com/profile/kamal610",
       Linkedin: "https://www.linkedin.com/in/kamal-meena-963992192"
-    },/*
+    },
     {
       "Name": "Manish Kumar ",
       "Photo": "assets/Students/Manish Kumar .jpg",
@@ -1006,7 +1019,7 @@ let data = [
       "Codechef": "codechef.com/users/manishnimel",
       "Codeforces": "codeforces.com/profile/manishnimel",
       "Linkedin": "linkedin.com/in/manish-kumar-b61994192"
-    },*/
+    },
     {
       Name: "Masoom Mittal",
       Photo: "assets/img/Students/Masoom Mittal.jpeg",
@@ -1024,7 +1037,7 @@ let data = [
       Codechef: "https://www.codechef.com/users/masoom_41",
       Codeforces: "https://codeforces.com/profile/masoommittal41",
       Linkedin: "https://www.linkedin.com/in/masoom-mittal-8259a6192/"
-    },/*
+    },
     {
       "Name": "Mohit Agunia",
       "Photo": "assets/Students/Mohit Agunia.jpg",
@@ -1096,7 +1109,7 @@ let data = [
       "Codechef": "https://www.codechef.com/users/epsilon_573",
       "Codeforces": "https://codeforces.com/profile/timothygreen573",
       "Linkedin": "www.linkedin.com/in/timothygreen573"
-    },*/
+    },
     {
       Name: "Soumyaranjan Behera",
       Photo: "assets/img/Students/Soumyaranjan Behera.jpg",
@@ -1115,7 +1128,7 @@ let data = [
       Codeforces: "https://codeforces.com/profile/soumya7568",
       Linkedin: "https://www.linkedin.com/in/soumya-ranjan-b59994192"
     },
-    /*
+    
     {
       "Name": "Utsah Baghel",
       "Photo": "assets/Students/Utsah Baghel.jpg",
@@ -1133,7 +1146,7 @@ let data = [
       "Codechef": "I don't have a codechef handle either ",
       "Codeforces": "I don't have a codeforces account ",
       "Linkedin": "I don't have it either"
-    },*/
+    },
     {
       Name: "Vipul Kumar Jha",
       Photo: "assets/img/Students/Vipul Jha.jpeg",
@@ -1208,20 +1221,79 @@ let data = [
     }
   ]
 
-document.getElementById("team-container").innerHTML = `
-${data.map((item) => {
-    return `
-    <div class="student-card">
-        <div class="student-img">
-            <img src="${item.Photo}" alt="">
+  let hackerrankUrl="https://hackerrank.com/"
+  let codechefUrl="https://codechef.com/"
+  let codeforcesUrl="https://codeforces.com/"
+  let linkedinUrl="https://www.linkedin.com/"
+  let gfgUrl="https://geeksforgeeks.com/"
+  let githubUrl="https://github.com/"
+
+  const regexForUrl=/https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_\+.~#?&//=]*)/
+
+  const currentYear=new Date().getFullYear()
+  /*
+  *Group Member data in 3 part
+  *index 0 - Core Members
+  *index 1 - Present Members
+  *index 2 - Alumuni
+  */
+  let grouped=[[],[],[]]
+  data.map((item)=>{
+    
+    if("Position" in item){
+      grouped[0].push(item)
+    }
+    else if(item.Batch>currentYear||item.Programme=="ICD"){
+      item.Position='Member'
+      grouped[1].push(item)
+    }
+    else{
+      item.Position="Alumni"
+      grouped[2].push(item)
+    }
+  })
+
+  grouped[0].sort(function(a,b){
+    if(a.PositionOrder<b.PositionOrder)
+      return -1
+    if(a.PositionOrder>b.PositionOrder)
+      return 1
+    return 0
+  })
+
+  $members_html_arr=grouped.map((group)=>{
+    return group.map((item)=>{
+
+      //Regex test for URL 
+      if(!regexForUrl.test(item.Linkedin.trim())){
+          item.Linkedin=linkedinUrl+item.Linkedin
+        }
+    
+        if(!regexForUrl.test(item.Github)){
+          item.Github=githubUrl+item.Github
+        }
+        let sampleGravatar='assets/img/sample-gravatar.png';
+    
+        return `
+        <div class="student-card">
+            <div class="student-img">
+                <img onerror="this.onerror=null;this.src='${sampleGravatar}'" src="${item.Photo}" alt="">
+            </div>
+            <div class="student-name">${item.Name}</div>
+            <div class="student-data">${item.Position}</div>
+            <div class="student-data">Batch ${item.Batch}(${item.Programme})</div>
+            <div class="box">
+                <a target="_blank" href="${item.Linkedin}"><i class="uil uil-linkedin-alt member-icon"></i></a>
+                <a target="_blank" href="${item.Github}"><i class="uil uil-github member-icon"></i></a>
+            </div>
         </div>
-        <div class="student-name">${item.Name}</div>
-        <div class="student-data">Batch ${item.Batch}</div>
-        <div class="box">
-            <a href="${item.Linkedin}"><i class="uil uil-linkedin-alt member-icon"></i></a>
-            <a href="${item.Github}"><i class="uil uil-github member-icon"></i></a>
-        </div>
-    </div>
-    `
-}).join('')}
-`
+        `
+    
+
+    }).join("")
+  })
+
+  console.log($members_html_arr)
+document.getElementById("core-container").innerHTML = $members_html_arr[0]
+document.getElementById("team-container").innerHTML = $members_html_arr[1]
+document.getElementById("alumni-container").innerHTML = $members_html_arr[2]
