@@ -88,43 +88,43 @@ let data = [
       Codechef: "Shyam_3232",
       Codeforces: "ShyamKenashia",
       Linkedin: "www.linkedin.com/in/shyam-kumar-910800169"
-    },/*
-    {
-      "Name": "Abhishek kumar",
-      "Photo": "assets/Students/Abhishek kumar.jpg",
-      "Batch": 2020,
-      "Joining Year": 2018,
-      "Programme": "ICD",
-      "Registration Number": "DCS/CDE 1712875",
-      "Email": "amishramuz@gmail.com",
-      "Contact": 8264892352,
-      "Gender": "Male",
-      "Github": "https://github.com/amishramuz",
-      "Hackerrank": "https://www.hackerrank.com/amishramuz?hr_r=1",
-      "GeeksforGeeks": "https://auth.geeksforgeeks.org/user/amishramuz",
-      "Hackerearth": "http://www.hackerearth.com/@abhishek4662",
-      "Codechef": "https://www.codechef.com/users/amishramuz",
-      "Codeforces": "https://codeforces.com/profile/amishramuz",
-      "Linkedin": "linkedin.com/in/abhishek-kumar-46a8a016a"
     },
     {
-      "Name": "Shweta Kumari",
-      "Photo": "assets/Students/Shweta Kumari.jpg",
-      "Batch": 2020,
-      "Joining Year": 2018,
-      "Programme": "ICD",
-      "Registration Number": "CDE/1712728",
-      "Email": "shw11466@gmail.com",
-      "Contact": 9304035564,
-      "Gender": "Female",
-      "Github": "https://github.com/shweta9009",
-      "Hackerrank": "https://www.hackerrank.com/Shw11466",
-      "GeeksforGeeks": "https://auth.geeksforgeeks.org/user/shw11466",
-      "Hackerearth": " http://www.hackerearth.com/@shweta729",
-      "Codechef": "https://www.codechef.com/users/shw11466",
-      "Codeforces": "https://codeforces.com/profile/shw9009",
-      "Linkedin": " https://www.linkedin.com/in/shweta-kumari-9119a0192 "
-    },*/
+      Name: "Abhishek kumar",
+      Photo: "assets/img/Students/gravatar.png",
+      Batch: 2020,
+      Joining_Year: 2018,
+      Programme: "ICD",
+      Registration_Number: "DCS/CDE 1712875",
+      Email: "amishramuz@gmail.com",
+      Contact: 8264892352,
+      Gender: "Male",
+      Github: "https://github.com/amishramuz",
+      Hackerrank: "https://www.hackerrank.com/amishramuz?hr_r=1",
+      GeeksforGeeks: "https://auth.geeksforgeeks.org/user/amishramuz",
+      Hackerearth: "http://www.hackerearth.com/@abhishek4662",
+      Codechef: "https://www.codechef.com/users/amishramuz",
+      Codeforces: "https://codeforces.com/profile/amishramuz",
+      Linkedin: "linkedin.com/in/abhishek-kumar-46a8a016a"
+    },
+    {
+      Name: "Shweta Kumari",
+      Photo: "assets/img/Students/gravatar.png",
+      Batch: 2020,
+      Joining_Year: 2018,
+      Programme: "ICD",
+      Registration_Number: "CDE/1712728",
+      Email: "shw11466@gmail.com",
+      Contact: 9304035564,
+      Gender: "Female",
+      Github: "https://github.com/shweta9009",
+      Hackerrank: "https://www.hackerrank.com/Shw11466",
+      GeeksforGeeks: "https://auth.geeksforgeeks.org/user/shw11466",
+      Hackerearth: " http://www.hackerearth.com/@shweta729",
+      Codechef: "https://www.codechef.com/users/shw11466",
+      Codeforces: "https://codeforces.com/profile/shw9009",
+      Linkedin: " https://www.linkedin.com/in/shweta-kumari-9119a0192 "
+    },
     {
       Name: "Astha Aahana Thakur",
       Photo: "assets/img/Students/Astha Aahana.jpg",
@@ -142,25 +142,25 @@ let data = [
       Codechef: "aahanaaat",
       Codeforces: "No",
       Linkedin: "https://www.linkedin.com/in/astha-aahana-thakur-199296174"
-    }, /*
+    }, 
     {
-      "Name": "Vaibhav raj",
-      "Photo": "assets/Students/Vaibhav raj.jpg",
-      "Batch": 2020,
-      "Joining Year": 2019,
-      "Programme": "ICD",
-      "Registration Number": "DCS/CDE/1712007",
-      "Email": "vaibhav72777@gmail.com",
-      "Contact": 7347525939,
-      "Gender": "Male",
-      "Github": "https://github.com/vaibhav727",
-      "Hackerrank": "https://www.hackerrank.com/vaibhav72777",
-      "GeeksforGeeks": "https://auth.geeksforgeeks.org/user/vaibhav72777/todo-done/",
-      "Hackerearth": "https://www.hackerearth.com/@vaibhav2206",
-      "Codechef": "https://www.codechef.com/users/vaibhav7277",
-      "Codeforces": "https://codeforces.com/profile/vaibhav7277",
-      "Linkedin": "https://www.linkedin.com/in/vaibhav-raj-9a7897192/"
-    },*/
+      Name: "Vaibhav raj",
+      Photo: "assets/img/Students/gravatar.png",
+      Batch: 2020,
+      Joining_Year: 2019,
+      Programme: "ICD",
+      Registration_Number: "DCS/CDE/1712007",
+      Email: "vaibhav72777@gmail.com",
+      Contact: 7347525939,
+      Gender: "Male",
+      Github: "https://github.com/vaibhav727",
+      Hackerrank: "https://www.hackerrank.com/vaibhav72777",
+      GeeksforGeeks: "https://auth.geeksforgeeks.org/user/vaibhav72777/todo-done/",
+      Hackerearth: "https://www.hackerearth.com/@vaibhav2206",
+      Codechef: "https://www.codechef.com/users/vaibhav7277",
+      Codeforces: "https://codeforces.com/profile/vaibhav7277",
+      Linkedin: "https://www.linkedin.com/in/vaibhav-raj-9a7897192/"
+    },
     {
       Name: "Amritanjali",
       Photo: "assets/img/Students/Amritanjali.jpg",
@@ -304,25 +304,25 @@ let data = [
       Codechef: "https://www.codechef.com/users/prateekrai",
       Codeforces: "http://codeforces.com/profile/prateekrai123",
       Linkedin: "https://www.linkedin.com/in/prateek-rai-150993192/"
-    }, /*
+    },
     {
-      "Name": "AJAY KUMAR",
-      "Photo": "assets/Students/AJAY KUMAR.jpg",
-      "Batch": 2021,
-      "Joining Year": 2019,
-      "Programme": "B.E",
-      "Registration Number": "GCS/1830029",
-      "Email": "ajaykumarsliet584@gmail.com",
-      "Contact": 9097403818,
-      "Gender": "Male",
-      "Github": "https://github.com/ak584",
-      "Hackerrank": "https://www.hackerrank.com/ajay584",
-      "GeeksforGeeks": "https://auth.geeksforgeeks.org/user/ajaykumarsliet584/profile",
-      "Hackerearth": "https://www.hackerearth.com/@ajay_584",
-      "Codechef": "https://www.codechef.com/users/ak584",
-      "Codeforces": "https://codeforces.com/profile/ajay584",
-      "Linkedin": "https://www.linkedin.com/in/ajay-kumar-5894b8164/"
-    },*/
+      Name: "Ajay Kumar",
+      Photo: "assets/img/Students/gravatar.png",
+      Batch: 2021,
+      Joining_Year: 2019,
+      Programme: "B.E",
+      Registration_Number: "GCS/1830029",
+      Email: "ajaykumarsliet584@gmail.com",
+      Contact: 9097403818,
+      Gender: "Male",
+      Github: "https://github.com/ak584",
+      Hackerrank: "https://www.hackerrank.com/ajay584",
+      GeeksforGeeks: "https://auth.geeksforgeeks.org/user/ajaykumarsliet584/profile",
+      Hackerearth: "https://www.hackerearth.com/@ajay_584",
+      Codechef: "https://www.codechef.com/users/ak584",
+      Codeforces: "https://codeforces.com/profile/ajay584",
+      Linkedin: "https://www.linkedin.com/in/ajay-kumar-5894b8164/"
+    },
     {
       Name: "Astha Kumari",
       Photo: "assets/img/Students/Astha.jpg",
@@ -358,25 +358,25 @@ let data = [
       Codechef: "https://www.codechef.com/users/chan17_cd",
       Codeforces: "http://codeforces.com/profile/coder2106",
       Linkedin: "https://www.linkedin.com/in/chandan-kumar-21b142173/"
-    },/*
+    },
     {
-      "Name": "S.Prasanna Kumar ",
-      "Photo": "assets/Students/S.Prasanna Kumar .jpg",
-      "Batch": 2021,
-      "Joining Year": 2019,
-      "Programme": "B.E",
-      "Registration Number": "GCS/1740573",
-      "Email": "prasannakumarpsk5555@gmail.com",
-      "Contact": 9494109247,
-      "Gender": "Male",
-      "Github": "https://github.com/munnupsk",
-      "Hackerrank": "https://www.hackerrank.com/PRASANNA_KUMAR_S",
-      "GeeksforGeeks": "https://auth.geeksforgeeks.org/user/PrasannaKumar6/todo-done/",
-      "Hackerearth": "https://www.hackerearth.com/@prasanna560",
-      "Codechef": "https://www.codechef.com/users/prasannapk",
-      "Codeforces": "https://codeforces.com/profile/prasannapsk",
-      "Linkedin": "https://www.linkedin.com/in/prasanna-kumar-sathunuri-54675a149"
-    }, */
+      Name: "S.Prasanna Kumar ",
+      Photo: "assets/img/Students/gravatar.png",
+      Batch: 2021,
+      Joining_Year: 2019,
+      Programme: "B.E",
+      Registration_Number: "GCS/1740573",
+      Email: "prasannakumarpsk5555@gmail.com",
+      Contact: 9494109247,
+      Gender: "Male",
+      Github: "https://github.com/munnupsk",
+      Hackerrank: "https://www.hackerrank.com/PRASANNA_KUMAR_S",
+      GeeksforGeeks: "https://auth.geeksforgeeks.org/user/PrasannaKumar6/todo-done/",
+      Hackerearth: "https://www.hackerearth.com/@prasanna560",
+      Codechef: "https://www.codechef.com/users/prasannapk",
+      Codeforces: "https://codeforces.com/profile/prasannapsk",
+      Linkedin: "https://www.linkedin.com/in/prasanna-kumar-sathunuri-54675a149"
+    },
     {
       Name: "Venkatesh Kumar",
       Photo: "assets/img/Students/Venkatesh Kumar.jpg",
@@ -412,61 +412,64 @@ let data = [
       Codechef: "https://www.codechef.com/users/shivam1raj5",
       Codeforces: "http://codeforces.com/profile/shivam1raj5",
       Linkedin: "https://www.linkedin.com/in/shivam-raj-982345197"
-    },/*
-    {
-      "Name": "Ankit Kumar",
-      "Photo": "assets/Students/Ankit Kumar.jpg",
-      "Batch": 2022,
-      "Joining Year": 2018,
-      "Programme": "B.E",
-      "Registration Number": "GCS/1840028",
-      "Email": "ankitstudy88@gmail.com",
-      "Contact": 9801501552,
-      "Gender": "Male",
-      "Github": "https://github.com/ankitmishra88",
-      "Hackerrank": "https://www.hackerrank.com/ankitstudy88",
-      "GeeksforGeeks": "https://auth.geeksforgeeks.org/user/ankitstudy88/",
-      "Hackerearth": "https://www.hackerearth.com/@ankit2645",
-      "Codechef": "https://www.codechef.com/users/ankitstudy88",
-      "Codeforces": "http://codeforces.com/profile/ankitstudy88",
-      "Linkedin": "https://www.linkedin.com/in/ankitmishra88"
     },
     {
-      "Name": "Naman Singh",
-      "Photo": "assets/Students/Naman Singh.jpg",
-      "Batch": 2022,
-      "Joining Year": 2018,
-      "Programme": "B.E",
-      "Registration Number": "GCS/1840007",
-      "Email": "namansignh420520@gmail.com",
-      "Contact": 9982075661,
-      "Gender": "Male",
-      "Github": "https://github.com/namansingh1998",
-      "Hackerrank": "https://www.hackerrank.com/namansignh420520",
-      "GeeksforGeeks": "https://auth.geeksforgeeks.org/user/namansignh420520",
-      "Hackerearth": "https://www.hackerearth.com/@naman825",
-      "Codechef": "https://www.codechef.com/users/namansingh1998",
-      "Codeforces": "http://codeforces.com/profile/namansingh1998",
-      "Linkedin": "https://www.linkedin.com/in/naman-singh-746b18192"
+      Name: "Ankit Mishra",
+      Photo: "assets/img/Students/Ankit Mishra.jpg",
+      Batch: 2022,
+      Joining_Year: 2018,
+      Position:"Coordinator",
+      PositionOrder:0,
+      Programme: "B.E",
+      Registration_Number: "GCS/1840028",
+      Email: "ankitstudy88@gmail.com",
+      Contact: 9801501552,
+      Gender: "Male",
+      Github: "https://github.com/ankitmishra88",
+      Hackerrank: "https://www.hackerrank.com/ankitstudy88",
+      GeeksforGeeks: "https://auth.geeksforgeeks.org/user/ankitstudy88/",
+      Hackerearth: "https://www.hackerearth.com/@ankit2645",
+      Codechef: "https://www.codechef.com/users/ankitstudy88",
+      Codeforces: "http://codeforces.com/profile/ankitstudy88",
+      Linkedin: "https://www.linkedin.com/in/ankitmishra88"
+    },
+    
+    {
+      Name: "Naman Singh",
+      Photo: "assets/img/Students/gravatar.png",
+      Batch: 2022,
+      Joining_Year: 2018,
+      Programme: "B.E",
+      Registration_Number: "GCS/1840007",
+      Email: "namansignh420520@gmail.com",
+      Contact: 9982075661,
+      Gender: "Male",
+      Github: "https://github.com/namansingh1998",
+      Hackerrank: "https://www.hackerrank.com/namansignh420520",
+      GeeksforGeeks: "https://auth.geeksforgeeks.org/user/namansignh420520",
+      Hackerearth: "https://www.hackerearth.com/@naman825",
+      Codechef: "https://www.codechef.com/users/namansingh1998",
+      Codeforces: "http://codeforces.com/profile/namansingh1998",
+      Linkedin: "https://www.linkedin.com/in/naman-singh-746b18192"
     },
     {
-      "Name": "Rohit Kumar",
-      "Photo": "assets/Students/Rohit Kumar.jpg",
-      "Batch": 2022,
-      "Joining Year": 2018,
-      "Programme": "B.E",
-      "Registration Number": "Gcs/1840041",
-      "Email": "rohitmantu201298@gmail.com",
-      "Contact": 9521426916,
-      "Gender": "Male",
-      "Github": "https://github.com/rohitmantu2",
-      "Hackerrank": "https://www.hackerrank.com/rohitmantu",
-      "GeeksforGeeks": "https://auth.geeksforgeeks.org/user/rohitmantu201298/profile",
-      "Hackerearth": "https://www.hackerearth.com/@rohitmantu201298",
-      "Codechef": "https://www.codechef.com/users/rohitmantu",
-      "Codeforces": "https://codeforces.com/profile/rohitmantu",
-      "Linkedin": "https://www.linkedin.com/in/rohit-kumar-507992192/"
-    },*/
+      Name: "Rohit Kumar",
+      Photo: "assets/img/Students/gravatar.png",
+      Batch: 2022,
+      Joining_Year: 2018,
+      Programme: "B.E",
+      Registration_Number: "Gcs/1840041",
+      Email: "rohitmantu201298@gmail.com",
+      Contact: 9521426916,
+      Gender: "Male",
+      Github: "https://github.com/rohitmantu2",
+      Hackerrank: "https://www.hackerrank.com/rohitmantu",
+      GeeksforGeeks: "https://auth.geeksforgeeks.org/user/rohitmantu201298/profile",
+      Hackerearth: "https://www.hackerearth.com/@rohitmantu201298",
+      Codechef: "https://www.codechef.com/users/rohitmantu",
+      Codeforces: "https://codeforces.com/profile/rohitmantu",
+      Linkedin: "https://www.linkedin.com/in/rohit-kumar-507992192/"
+    },
     {
       Name: "Shrawan Kumar",
       Photo: "assets/img/Students/Shrawan Kumar.jpg",
@@ -543,6 +546,8 @@ let data = [
       Name: "Amit Kumar",
       Photo: "assets/img/Students/Amit Kumar.jpg",
       Batch: 2022,
+      Position:"Campaign Head",
+      PositionOrder:4,
       Joining_Year: 2019,
       Programme: "B.E",
       Registration_Number: "GCS/1840038",
@@ -563,6 +568,8 @@ let data = [
       Batch: 2022,
       Joining_Year: 2019,
       Programme: "B.E",
+      Position:"Programming Head",
+      PositionOrder:2,
       Registration_Number: "GCS/1930022",
       Email: "singh99amitoj@gmail.com",
       Contact: 9417171800,
@@ -618,6 +625,8 @@ let data = [
       Joining_Year: 2019,
       Programme: "B.E",
       Registration_Number: "GCS/1840060",
+      Position:"Programming Head",
+      PositionOrder:3,
       Email: "atalsingh05@gmail.com",
       Contact: 7905704859,
       Gender: "Male",
@@ -646,61 +655,61 @@ let data = [
       Codechef: "https://codechef. com/user/sonib",
       Codeforces: "https://codeforces. com/profile/bhavesh65321",
       Linkedin: "https://linkedin.com/in/bhavesh-soni-3769a3192/"
-    },/*
-    {
-      "Name": "Dixit Agarwal",
-      "Photo": "assets/Students/Dixit Agarwal.jpg",
-      "Batch": 2022,
-      "Joining Year": 2019,
-      "Programme": "B.E",
-      "Registration Number": "GCS/1840002",
-      "Email": "dixitagarwal05062000@gmail.com",
-      "Contact": 6378019494,
-      "Gender": "Male",
-      "Github": "https://github.com/dixit1901",
-      "Hackerrank": "https://www.hackerrank.com/dixitagarwal0501",
-      "GeeksforGeeks": "https://auth.geeksforgeeks.org/user/dixit1901/todo-done/",
-      "Hackerearth": "https://www.hackerearth.com/@dixitagarwal05062000",
-      "Codechef": "https://www.codechef.com/users/dixit1901",
-      "Codeforces": "https://codeforces.com/profile/dixit1901",
-      "Linkedin": "https://www.linkedin.com/in/dixit-agarwal-300996192/"
     },
     {
-      "Name": "HARSHRAJ",
-      "Photo": "assets/Students/HARSHRAJ.jpg",
-      "Batch": 2022,
-      "Joining Year": 2019,
-      "Programme": "B.E",
-      "Registration Number": "GME/1933528",
-      "Email": "hr3580180@gmail.com",
-      "Contact": 7677357297,
-      "Gender": "Male",
-      "Github": "https://github.com/HARSHRAJSLIET",
-      "Hackerrank": "https://www.hackerrank.com/HARSHRAJSLIET",
-      "GeeksforGeeks": "https://auth.geeksforgeeks.org/user/Harshrajsliet/todo-done/",
-      "Hackerearth": "https://www.hackerearth.com/@harsh2283",
-      "Codechef": "https://www.codechef.com/users/harshsliet123",
-      "Codeforces": "http://codeforces.com/profile/HARSHRAJSL",
-      "Linkedin": "https://www.linkedin.com/mwlite/me"
+      Name: "Dixit Agarwal",
+      Photo: "assets/img/Students/gravatar.png",
+      Batch: 2022,
+      Joining_Year: 2019,
+      Programme: "B.E",
+      Registration_Number: "GCS/1840002",
+      Email: "dixitagarwal05062000@gmail.com",
+      Contact: 6378019494,
+      Gender: "Male",
+      Github: "https://github.com/dixit1901",
+      Hackerrank: "https://www.hackerrank.com/dixitagarwal0501",
+      GeeksforGeeks: "https://auth.geeksforgeeks.org/user/dixit1901/todo-done/",
+      Hackerearth: "https://www.hackerearth.com/@dixitagarwal05062000",
+      Codechef: "https://www.codechef.com/users/dixit1901",
+      Codeforces: "https://codeforces.com/profile/dixit1901",
+      Linkedin: "https://www.linkedin.com/in/dixit-agarwal-300996192/"
     },
     {
-      "Name": "Keshav Sonu",
-      "Photo": "assets/Students/Keshav Sonu.jpg",
-      "Batch": 2022,
-      "Joining Year": 2019,
-      "Programme": "B.E",
-      "Registration Number": "GCS/1840050",
-      "Email": "keshav.sonu4@gmail.com",
-      "Contact": 9319342327,
-      "Gender": "Male",
-      "Github": "https://github.com/kksonu",
-      "Hackerrank": "https://www.hackerrank.com/keshav_sonu4",
-      "GeeksforGeeks": "https://auth.geeksforgeeks.org/user/kksonu",
-      "Hackerearth": "https://www.hackerearth.com/@keshav.sonu4",
-      "Codechef": "https://www.codechef.com/users/kksonu",
-      "Codeforces": "http://codeforces.com/profile/kksonu",
-      "Linkedin": "https://www.linkedin.com/in/keshav-sonu-77a9a7192/"
-    },*/
+      Name: "HARSHRAJ",
+      Photo: "assets/img/Students/gravatar.png",
+      Batch: 2022,
+      Joining_Year: 2019,
+      Programme: "B.E",
+      Registration_Number: "GME/1933528",
+      Email: "hr3580180@gmail.com",
+      Contact: 7677357297,
+      Gender: "Male",
+      Github: "https://github.com/HARSHRAJSLIET",
+      Hackerrank: "https://www.hackerrank.com/HARSHRAJSLIET",
+      GeeksforGeeks: "https://auth.geeksforgeeks.org/user/Harshrajsliet/todo-done/",
+      Hackerearth: "https://www.hackerearth.com/@harsh2283",
+      Codechef: "https://www.codechef.com/users/harshsliet123",
+      Codeforces: "http://codeforces.com/profile/HARSHRAJSL",
+      Linkedin: "https://www.linkedin.com/mwlite/me"
+    },
+    {
+      Name: "Keshav Sonu",
+      Photo: "assets/img/Students/gravatar.png",
+      Batch: 2022,
+      Joining_Year: 2019,
+      Programme: "B.E",
+      Registration_Number: "GCS/1840050",
+      Email: "keshav.sonu4@gmail.com",
+      Contact: 9319342327,
+      Gender: "Male",
+      Github: "https://github.com/kksonu",
+      Hackerrank: "https://www.hackerrank.com/keshav_sonu4",
+      GeeksforGeeks: "https://auth.geeksforgeeks.org/user/kksonu",
+      Hackerearth: "https://www.hackerearth.com/@keshav.sonu4",
+      Codechef: "https://www.codechef.com/users/kksonu",
+      Codeforces: "http://codeforces.com/profile/kksonu",
+      Linkedin: "https://www.linkedin.com/in/keshav-sonu-77a9a7192/"
+    },
     {
       Name: "Manjeeta Maurya",
       Photo: "assets/img/Students/Manjeeta Maurya.jpg",
@@ -833,6 +842,8 @@ let data = [
       Batch: 2022,
       Joining_Year: 2019,
       Programme: "B.E",
+      Position:"Co-coordinator",
+      PositionOrder:1,
       Registration_Number: "GCS/1932041",
       Email: "ruchika04031998@gmail.com",
       Contact: 8527753759,
@@ -885,6 +896,8 @@ let data = [
       Name: "Shrejal Singh",
       Photo: "assets/img/Students/Shrejal Singh.jpg",
       Batch: 2022,
+      Position:"Campaign Head",
+      PositionOrder:5,
       Joining_Year: 2019,
       Programme: "B.E",
       Registration_Number: "GCS/1930077",
@@ -1081,7 +1094,7 @@ let data = [
     },
     {
       Name: "Sahil Sharma",
-      Photo: "assets/img/Students/gravatar.png",
+      Photo: "assets/img/Students/Sahil Sharma.jpeg",
       Batch: 2023,
       Joining_Year: 2019,
       Programme: "B.E",
@@ -1207,20 +1220,79 @@ let data = [
     }
   ]
 
-document.getElementById("team-container").innerHTML = `
-${data.map((item) => {
-    return `
-    <div class="student-card">
-        <div class="student-img">
-            <img src="${item.Photo}" alt="">
+  let hackerrankUrl="https://hackerrank.com/"
+  let codechefUrl="https://codechef.com/"
+  let codeforcesUrl="https://codeforces.com/"
+  let linkedinUrl="https://www.linkedin.com/"
+  let gfgUrl="https://geeksforgeeks.com/"
+  let githubUrl="https://github.com/"
+
+  const regexForUrl=/https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_\+.~#?&//=]*)/
+
+  const currentYear=new Date().getFullYear()
+  /*
+  *Group Member data in 3 part
+  *index 0 - Core Members
+  *index 1 - Present Members
+  *index 2 - Alumuni
+  */
+  let grouped=[[],[],[]]
+  data.map((item)=>{
+    
+    if("Position" in item){
+      grouped[0].push(item)
+    }
+    else if(item.Batch>currentYear||item.Programme=="ICD"){
+      item.Position='Member'
+      grouped[1].push(item)
+    }
+    else{
+      item.Position="Alumni"
+      grouped[2].push(item)
+    }
+  })
+
+  grouped[0].sort(function(a,b){
+    if(a.PositionOrder<b.PositionOrder)
+      return -1
+    if(a.PositionOrder>b.PositionOrder)
+      return 1
+    return 0
+  })
+
+  $members_html_arr=grouped.map((group)=>{
+    return group.map((item)=>{
+
+      //Regex test for URL 
+      if(!regexForUrl.test(item.Linkedin.trim())){
+          item.Linkedin=linkedinUrl+item.Linkedin
+        }
+    
+        if(!regexForUrl.test(item.Github)){
+          item.Github=githubUrl+item.Github
+        }
+        let sampleGravatar='assets/img/sample-gravatar.png';
+    
+        return `
+        <div class="student-card">
+            <div class="student-img">
+                <img onerror="this.onerror=null;this.src='${sampleGravatar}'" src="${item.Photo}" alt="">
+            </div>
+            <div class="student-name">${item.Name}</div>
+            <div class="student-data">${item.Position}</div>
+            <div class="student-data">Batch ${item.Batch}(${item.Programme})</div>
+            <div class="box">
+                <a target="_blank" href="${item.Linkedin}"><i class="uil uil-linkedin-alt member-icon"></i></a>
+                <a target="_blank" href="${item.Github}"><i class="uil uil-github member-icon"></i></a>
+            </div>
         </div>
-        <div class="student-name">${item.Name}</div>
-        <div class="student-data">Batch ${item.Batch}</div>
-        <div class="box">
-            <a href="${item.Linkedin}"><i class="uil uil-linkedin-alt member-icon"></i></a>
-            <a href="${item.Github}"><i class="uil uil-github member-icon"></i></a>
-        </div>
-    </div>
-    `
-}).join('')}
-`
+        `
+    
+
+    }).join("")
+  })
+
+  console.log($members_html_arr)
+document.getElementById("core-container").innerHTML = $members_html_arr[0]
+document.getElementById("team-container").innerHTML = $members_html_arr[1]
+document.getElementById("alumni-container").innerHTML = $members_html_arr[2]
