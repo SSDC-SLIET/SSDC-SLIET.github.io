@@ -198,6 +198,24 @@ let data = [
       Linkedin: "https://www.linkedin.com/in/aryan-yadav-500a2414a/"
     },
     {
+      Name: "Dilkhush Kumar",
+      Photo: "old/images/Pictures/Passout/Batch-2021/dilkhush.jpg",
+      Batch: 2021,
+      Joining_Year: 2017,
+      Programme: "B.E",
+      Registration_Number: "GCS/1740558",
+      Email: "dipayandas2580@gmail.com",
+      Contact: "",
+      Gender: "Male",
+      Github: "#",
+      Hackerrank: "https://www.hackerrank.com/agentvenom",
+      GeeksforGeeks: "#",
+      Hackerearth: "#",
+      Codechef: "https://www.codechef.com/users/dillu546",
+      Codeforces: "#",
+      Linkedin: "https://www.linkedin.com/in/dilkhush-kumar-426917166"
+    },
+    {
       Name: "Dipayan Das",
       Photo: "assets/img/Students/Dipayan Das.jpg",
       Batch: 2021,
