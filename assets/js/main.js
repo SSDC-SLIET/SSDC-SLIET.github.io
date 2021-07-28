@@ -97,7 +97,6 @@ let swiperMembers = new Swiper('.member-container' , {
 
 var swiperGallery = new Swiper(".gallery-container", {
     spaceBetween: 30,
-    centeredSlides: true,
     autoplay: {
       delay: 2500,
       disableOnInteraction: false,
@@ -110,6 +109,11 @@ var swiperGallery = new Swiper(".gallery-container", {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
     },
+    breakpoints: {
+        568: {
+            slidesPerView: 3,
+        }
+    }
   });
 
 /* scrolling */

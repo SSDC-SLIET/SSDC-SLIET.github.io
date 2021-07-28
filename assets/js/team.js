@@ -199,7 +199,7 @@ let data = [
     },
     {
       Name: "Dilkhush Kumar",
-      Photo: "old/images/Pictures/Passout/Batch-2021/dilkhush.jpg",
+      Photo: "assets/img/Students/Dilkhush.jpg",
       Batch: 2021,
       Joining_Year: 2017,
       Programme: "B.E",
