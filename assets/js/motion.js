@@ -302,15 +302,15 @@ vertex3d.prototype = {
 	sphere.prototype = {
 		update : function() {
 			if(this.charsMap[this.type]) {
-			for(var i=0; i<this.charsMap[this.type].length; i++) {
-				if(this.degree[i].theta >= 30 && this.degree[i].phi >= 30) {
-					this.flag = true;
-					break;
-				} else {
-					this.flag = false;
-				};	
-			};
-		}
+				for(var i=0; i<this.charsMap[this.type].length; i++) {
+					if(this.degree[i].theta >= 30 && this.degree[i].phi >= 30) {
+						this.flag = true;
+						break;
+					} else {
+						this.flag = false;
+					};	
+				};
+			}
 			this.radius =  this.radius + (this.targetRadius - this.radius) / 8;
 			this.center.x = this.center.x + (this.targetCenter.x - this.center.x) / 8;
 			this.center.y = this.center.y + (this.targetCenter.y - this.center.y) / 8;
