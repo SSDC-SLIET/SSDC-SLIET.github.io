@@ -1092,7 +1092,7 @@ img {
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: space-evenly;
+        justify-content: center;
     }
 }
 
@@ -1119,4 +1119,20 @@ img {
     .contact-form {
         width: 460px;
     }
+}
+
+/**Extra Styling For Footer*/
+
+.footer .ssdc-logo img{
+    width:100px !important;
+    height:100px !important;
+    background:white;
+    border-radius:50%;
+}
+
+.footer-container.container.grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
